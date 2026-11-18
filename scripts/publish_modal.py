@@ -26,7 +26,7 @@ app = modal.App("hebrew-gendered-publish", image=image)
 hf = modal.Secret.from_dict({"HF_TOKEN": os.environ["HF_TOKEN"]} if modal.is_local() else {})
 
 
-@app.function(timeout=3 * 3600, secrets=[hf], ephemeral_disk=60 * 1024)
+@app.function(timeout=3 * 3600, secrets=[hf])
 def publish(run: str):
     from huggingface_hub import HfApi, snapshot_download
     api = HfApi()

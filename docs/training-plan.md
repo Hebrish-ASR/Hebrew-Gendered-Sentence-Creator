@@ -288,7 +288,8 @@ Ship any version with a verified wrapper: generate, run the analyser, regenerate
 
 Workaround for callers today: pass the term already inflected for the speaker (מדוכאה for f).
 
-Not published: Hugging Face publishing (`scripts/publish_modal.py`, targets `Hebrish/Hebrew-Gendered-Sentence-Creator`
-and `Hebrish/Hebrew-Gendered-Sentences`; cards in `hf/` not yet written) waits for Daniel.
+**Published as a work in progress (Daniel, 2026-11-18):** v3 went to `Hebrish/Hebrew-Gendered-Sentence-Creator`, and the
+training data to `Hebrish/Hebrew-Gendered-Sentences`, both public. They were copied inside Modal with
+`scripts/publish_modal.py`; the cards are in `hf/`.
 
 Spend to date: about US$13.80 (Anthropic US$5.53, Modal about US$8.30 estimated from run times).
