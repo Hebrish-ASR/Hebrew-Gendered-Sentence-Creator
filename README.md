@@ -57,10 +57,10 @@ The reply is a JSON array of `n` unpointed Hebrew sentences, each 6 to 18 words,
 
 ## Planning notes (to be worked out)
 
-- **Base model.** It must write good Hebrew at a size we can run cheaply. The shortlist and reasons are in [`docs/base-model-candidates.md`](docs/base-model-candidates.md). The working bet is `dicta-il/DictaLM-3.0-1.7B-Instruct`, against Gemma 4 E4B, DictaLM 2.0, DictaLM-3.0-Nemotron-12B and others. Not chosen until the phase-0 probe has run. The full proposal is in [`docs/training-plan.md`](docs/training-plan.md).
+- **Base model.** It must write good Hebrew at a size we can run cheaply. The shortlist and reasons are in [`docs/base-model-candidates.md`](docs/base-model-candidates.md). **Chosen (Daniel, 2026-11-18): Gemma 4**, starting with `google/gemma-4-E4B-it` (Apache-2.0, `Gemma4ForConditionalGeneration`, 8.0B parameters including embeddings). `google/gemma-4-12B-it` is the step-up if E4B is not fluent enough. The full proposal is in [`docs/training-plan.md`](docs/training-plan.md).
 - **Data.** Distil from a strong LLM, writing natively for each gender. Nothing is written in one gender and then edited into the other. Keep a sentence only if a morphological analyser finds every first-person form in the requested gender, and check that third parties do not drift toward that gender.
 - **Evaluation.** Gate pass rate (JSON, n, length, term present), speaker-gender agreement measured by a morphological analyser, and no gender flips on third parties.
 
 ## Licence
 
-MIT, for the code and for the released adapter and weights. This needs a base whose licence allows that: Apache-2.0 or MIT bases are fine, with the upstream notice and attribution kept. NVIDIA's Open Model Licence (DictaLM-3.0-Nemotron-12B) and the gated Gemma 3 and Llama licences are not.
+Code: MIT (`LICENSE`). Released weights follow the base model's licence. Any open, permissive licence is acceptable (Daniel, 2026-11-18), and the licence is not a criterion for choosing the base model. The chosen base, Gemma 4, is Apache-2.0.

@@ -1,0 +1,19 @@
+{
+ "run": "gemma-smoke",
+ "base": "google/gemma-4-E4B-it",
+ "hf_repo": null,
+ "examples": 64,
+ "steps": 4,
+ "epochs": 1.0,
+ "lr": 0.0002,
+ "rank": 32,
+ "train_s": 11,
+ "eval_gen_s": 22,
+ "loss_log": [
+  {
+   "step": 4,
+   "loss": 1.6896,
+   "s": 11
+  }
+ ]
+}

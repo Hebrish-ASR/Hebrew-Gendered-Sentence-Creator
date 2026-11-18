@@ -1,0 +1,924 @@
+{"term": "להתעורר", "context": "to wake up in the morning", "category": "daily routine and household"}
+{"term": "שעון מעורר", "context": "alarm clock that rings in the morning", "category": "daily routine and household"}
+{"term": "להתקלח", "context": "to take a shower", "category": "daily routine and household"}
+{"term": "לצחצח שיניים", "context": "to brush one's teeth", "category": "daily routine and household"}
+{"term": "להתגלח", "context": "to shave", "category": "daily routine and household"}
+{"term": "להתלבש", "context": "to get dressed", "category": "daily routine and household"}
+{"term": "ארוחת בוקר", "context": "breakfast, the first meal of the day", "category": "daily routine and household"}
+{"term": "לבשל", "context": "to cook a meal", "category": "daily routine and household"}
+{"term": "לחמם", "context": "to heat up food, e.g. in the microwave", "category": "daily routine and household"}
+{"term": "מיקרוגל", "context": "microwave oven used to reheat food", "category": "daily routine and household"}
+{"term": "מקרר", "context": "refrigerator where food is kept cold", "category": "daily routine and household"}
+{"term": "תנור", "context": "oven for baking and roasting", "category": "daily routine and household"}
+{"term": "כיריים", "context": "stovetop burners used for cooking", "category": "daily routine and household"}
+{"term": "סיר", "context": "cooking pot for soups and stews", "category": "daily routine and household"}
+{"term": "מחבת", "context": "frying pan", "category": "daily routine and household"}
+{"term": "לשטוף כלים", "context": "to wash the dishes after a meal", "category": "daily routine and household"}
+{"term": "מדיח כלים", "context": "dishwasher machine", "category": "daily routine and household"}
+{"term": "ספוג", "context": "sponge for scrubbing dishes", "category": "daily routine and household"}
+{"term": "לנגב", "context": "to wipe a surface or mop the floor", "category": "daily routine and household"}
+{"term": "לטאטא", "context": "to sweep the floor with a broom", "category": "daily routine and household"}
+{"term": "שואב אבק", "context": "vacuum cleaner", "category": "daily routine and household"}
+{"term": "לסדר את הבית", "context": "to tidy up the house", "category": "daily routine and household"}
+{"term": "לנקות", "context": "to clean the apartment", "category": "daily routine and household"}
+{"term": "אבקת כביסה", "context": "laundry detergent powder", "category": "daily routine and household"}
+{"term": "מכונת כביסה", "context": "washing machine", "category": "daily routine and household"}
+{"term": "לתלות כביסה", "context": "to hang wet laundry to dry", "category": "daily routine and household"}
+{"term": "מייבש כביסה", "context": "clothes dryer", "category": "daily routine and household"}
+{"term": "לגהץ", "context": "to iron clothes", "category": "daily routine and household"}
+{"term": "ארון בגדים", "context": "wardrobe or closet for clothes", "category": "daily routine and household"}
+{"term": "מיטה", "context": "bed to sleep in", "category": "daily routine and household"}
+{"term": "מצעים", "context": "bed linens such as sheets and pillowcases", "category": "daily routine and household"}
+{"term": "שמיכה", "context": "blanket used in bed", "category": "daily routine and household"}
+{"term": "כרית", "context": "pillow for the head", "category": "daily routine and household"}
+{"term": "ללכת לישון", "context": "to go to bed for the night", "category": "daily routine and household"}
+{"term": "לישון", "context": "to sleep", "category": "daily routine and household"}
+{"term": "לקחת את הילדים לגן", "context": "to take the kids to kindergarten in the morning", "category": "daily routine and household"}
+{"term": "לעשות קניות", "context": "to do grocery shopping", "category": "daily routine and household"}
+{"term": "סופר", "context": "supermarket where people buy groceries", "category": "daily routine and household"}
+{"term": "עגלה", "context": "shopping cart used in the supermarket", "category": "daily routine and household"}
+{"term": "רשימת קניות", "context": "shopping list written before going to the store", "category": "daily routine and household"}
+{"term": "להוציא את הזבל", "context": "to take out the trash", "category": "daily routine and household"}
+{"term": "פח אשפה", "context": "trash can in the kitchen or street", "category": "daily routine and household"}
+{"term": "חשבון חשמל", "context": "electricity bill paid regularly", "category": "daily routine and household"}
+{"term": "דוד שמש", "context": "solar water heater on the roof", "category": "daily routine and household"}
+{"term": "מזגן", "context": "air conditioner used to cool or heat the room", "category": "daily routine and household"}
+{"term": "שירותים", "context": "toilet or bathroom", "category": "daily routine and household"}
+{"term": "מטבח", "context": "kitchen where meals are prepared", "category": "daily routine and household"}
+{"term": "סלון", "context": "living room where the family relaxes", "category": "daily routine and household"}
+{"term": "שלט", "context": "remote control for the television", "category": "daily routine and household"}
+{"term": "להשקות עציצים", "context": "to water the houseplants", "category": "daily routine and household"}
+{"term": "משפחה", "context": "noun: family, the people you are related to", "category": "family and relationships"}
+{"term": "הורים", "context": "noun, plural: parents", "category": "family and relationships"}
+{"term": "אמא", "context": "noun: mom, mother (everyday form)", "category": "family and relationships"}
+{"term": "אבא", "context": "noun: dad, father (everyday form)", "category": "family and relationships"}
+{"term": "סבא", "context": "noun: grandfather", "category": "family and relationships"}
+{"term": "סבתא", "context": "noun: grandmother", "category": "family and relationships"}
+{"term": "נכד", "context": "noun: grandson", "category": "family and relationships"}
+{"term": "נכדה", "context": "noun: granddaughter", "category": "family and relationships"}
+{"term": "אח", "context": "noun: brother", "category": "family and relationships"}
+{"term": "אחות", "context": "noun: sister", "category": "family and relationships"}
+{"term": "בן דוד", "context": "noun: male cousin", "category": "family and relationships"}
+{"term": "בת דודה", "context": "noun: female cousin", "category": "family and relationships"}
+{"term": "דוד", "context": "noun: uncle", "category": "family and relationships"}
+{"term": "דודה", "context": "noun: aunt", "category": "family and relationships"}
+{"term": "אחיין", "context": "noun: nephew", "category": "family and relationships"}
+{"term": "אחיינית", "context": "noun: niece", "category": "family and relationships"}
+{"term": "חמות", "context": "noun: mother-in-law", "category": "family and relationships"}
+{"term": "חמא", "context": "noun: father-in-law", "category": "family and relationships"}
+{"term": "גיס", "context": "noun: brother-in-law", "category": "family and relationships"}
+{"term": "גיסה", "context": "noun: sister-in-law", "category": "family and relationships"}
+{"term": "בעל", "context": "noun: husband", "category": "family and relationships"}
+{"term": "אישה", "context": "noun: wife; also woman", "category": "family and relationships"}
+{"term": "בן זוג", "context": "noun: male partner, boyfriend or spouse", "category": "family and relationships"}
+{"term": "בת זוג", "context": "noun: female partner, girlfriend or spouse", "category": "family and relationships"}
+{"term": "חבר", "context": "noun: friend, or boyfriend depending on context", "category": "family and relationships"}
+{"term": "חברה", "context": "noun: female friend, or girlfriend depending on context", "category": "family and relationships"}
+{"term": "חתן", "context": "noun: groom, or son-in-law", "category": "family and relationships"}
+{"term": "כלה", "context": "noun: bride, or daughter-in-law", "category": "family and relationships"}
+{"term": "אירוסין", "context": "noun, plural: engagement to be married", "category": "family and relationships"}
+{"term": "חתונה", "context": "noun: wedding", "category": "family and relationships"}
+{"term": "להתחתן", "context": "verb infinitive: to get married", "category": "family and relationships"}
+{"term": "להתארס", "context": "verb infinitive: to get engaged", "category": "family and relationships"}
+{"term": "להתגרש", "context": "verb infinitive: to get divorced", "category": "family and relationships"}
+{"term": "גירושין", "context": "noun, plural: divorce", "category": "family and relationships"}
+{"term": "גרוש", "context": "adjective/noun: divorced man", "category": "family and relationships"}
+{"term": "אלמן", "context": "noun/adjective: widower", "category": "family and relationships"}
+{"term": "רווק", "context": "adjective/noun: single, unmarried man", "category": "family and relationships"}
+{"term": "נשוי", "context": "adjective: married (said of a man)", "category": "family and relationships"}
+{"term": "להיפרד", "context": "verb infinitive: to break up or separate from a partner", "category": "family and relationships"}
+{"term": "ללדת", "context": "verb infinitive: to give birth", "category": "family and relationships"}
+{"term": "לגדל", "context": "verb infinitive: to raise a child", "category": "family and relationships"}
+{"term": "ילד", "context": "noun: child, boy", "category": "family and relationships"}
+{"term": "תינוק", "context": "noun: baby", "category": "family and relationships"}
+{"term": "בן יחיד", "context": "noun phrase: only son", "category": "family and relationships"}
+{"term": "אח גדול", "context": "noun phrase: older brother", "category": "family and relationships"}
+{"term": "אחות קטנה", "context": "noun phrase: younger sister", "category": "family and relationships"}
+{"term": "משפחה גרעינית", "context": "noun phrase: nuclear family", "category": "family and relationships"}
+{"term": "אהבה", "context": "noun: love", "category": "family and relationships"}
+{"term": "להתאהב", "context": "verb infinitive: to fall in love", "category": "family and relationships"}
+{"term": "לצאת עם מישהו", "context": "verb phrase: to date someone", "category": "family and relationships"}
+{"term": "מאורס", "context": "adjective: engaged (said of a man)", "category": "family and relationships"}
+{"term": "עבודה", "context": "work in general, or a job", "category": "work and the office"}
+{"term": "משרד", "context": "office, the physical workplace", "category": "work and the office"}
+{"term": "מנהל", "context": "manager or boss", "category": "work and the office"}
+{"term": "עובד", "context": "employee", "category": "work and the office"}
+{"term": "עמית", "context": "colleague, coworker", "category": "work and the office"}
+{"term": "מעסיק", "context": "employer", "category": "work and the office"}
+{"term": "משכורת", "context": "salary, monthly pay", "category": "work and the office"}
+{"term": "תלוש משכורת", "context": "payslip", "category": "work and the office"}
+{"term": "העלאה", "context": "a raise in pay", "category": "work and the office"}
+{"term": "קידום", "context": "promotion to a higher position", "category": "work and the office"}
+{"term": "פגישה", "context": "meeting or appointment with someone", "category": "work and the office"}
+{"term": "ישיבה", "context": "formal work meeting (in the context of a staff meeting)", "category": "work and the office"}
+{"term": "מייל", "context": "work email", "category": "work and the office"}
+{"term": "מחשב", "context": "computer on the office desk", "category": "work and the office"}
+{"term": "מדפסת", "context": "printer", "category": "work and the office"}
+{"term": "שולחן עבודה", "context": "desk, work table", "category": "work and the office"}
+{"term": "קפה", "context": "the coffee break habit in the office", "category": "work and the office"}
+{"term": "הפסקה", "context": "break during the workday", "category": "work and the office"}
+{"term": "לעבוד", "context": "to work", "category": "work and the office"}
+{"term": "להתפטר", "context": "to resign from a job", "category": "work and the office"}
+{"term": "לפטר", "context": "to fire someone", "category": "work and the office"}
+{"term": "לגייס", "context": "to recruit or hire staff", "category": "work and the office"}
+{"term": "לראיין", "context": "to interview a candidate", "category": "work and the office"}
+{"term": "קורות חיים", "context": "CV, resume", "category": "work and the office"}
+{"term": "משרה מלאה", "context": "full-time position", "category": "work and the office"}
+{"term": "משרה חלקית", "context": "part-time position", "category": "work and the office"}
+{"term": "שעות נוספות", "context": "overtime hours", "category": "work and the office"}
+{"term": "חופשה", "context": "vacation, time off from work", "category": "work and the office"}
+{"term": "יום מחלה", "context": "sick day taken from work", "category": "work and the office"}
+{"term": "חוזה", "context": "employment contract", "category": "work and the office"}
+{"term": "לקוח", "context": "client or customer", "category": "work and the office"}
+{"term": "ספק", "context": "supplier or vendor", "category": "work and the office"}
+{"term": "פרויקט", "context": "work project", "category": "work and the office"}
+{"term": "דדליין", "context": "deadline, colloquial loanword", "category": "work and the office"}
+{"term": "לוח זמנים", "context": "schedule or timeline for tasks", "category": "work and the office"}
+{"term": "משימה", "context": "task assigned at work", "category": "work and the office"}
+{"term": "צוות", "context": "team", "category": "work and the office"}
+{"term": "מחלקה", "context": "department within a company", "category": "work and the office"}
+{"term": "סטארט-אפ", "context": "start-up company, very common in Israel", "category": "work and the office"}
+{"term": "לעבוד מהבית", "context": "to work from home", "category": "work and the office"}
+{"term": "מקצועי", "context": "professional, competent", "category": "work and the office"}
+{"term": "עסוק", "context": "busy, occupied with work", "category": "work and the office"}
+{"term": "לחץ בעבודה", "context": "work stress, pressure", "category": "work and the office"}
+{"term": "שחיקה", "context": "burnout from work", "category": "work and the office"}
+{"term": "לסכם", "context": "to summarize, wrap up (e.g. a meeting)", "category": "work and the office"}
+{"term": "להגיש", "context": "to submit a report or document", "category": "work and the office"}
+{"term": "דוח", "context": "report prepared at work", "category": "work and the office"}
+{"term": "מצגת", "context": "presentation slides", "category": "work and the office"}
+{"term": "ועד עובדים", "context": "workers' committee, union body", "category": "work and the office"}
+{"term": "רופא", "context": "doctor, physician", "category": "health and medical care"}
+{"term": "רופאה", "context": "female doctor", "category": "health and medical care"}
+{"term": "בית חולים", "context": "hospital", "category": "health and medical care"}
+{"term": "מרפאה", "context": "clinic, outpatient facility", "category": "health and medical care"}
+{"term": "רופא משפחה", "context": "family doctor, GP", "category": "health and medical care"}
+{"term": "רופא שיניים", "context": "dentist", "category": "health and medical care"}
+{"term": "רופא מומחה", "context": "specialist doctor", "category": "health and medical care"}
+{"term": "תור לרופא", "context": "appointment with a doctor", "category": "health and medical care"}
+{"term": "חדר מיון", "context": "emergency room", "category": "health and medical care"}
+{"term": "אמבולנס", "context": "ambulance", "category": "health and medical care"}
+{"term": "מד\"א", "context": "Magen David Adom, Israel's emergency medical service", "category": "health and medical care"}
+{"term": "תרופה", "context": "medicine, medication", "category": "health and medical care"}
+{"term": "מרשם", "context": "prescription from a doctor", "category": "health and medical care"}
+{"term": "בית מרקחת", "context": "pharmacy", "category": "health and medical care"}
+{"term": "רוקח", "context": "pharmacist", "category": "health and medical care"}
+{"term": "כדור", "context": "pill, tablet", "category": "health and medical care"}
+{"term": "אקמול", "context": "paracetamol/acetaminophen, common painkiller", "category": "health and medical care"}
+{"term": "אנטיביוטיקה", "context": "antibiotics", "category": "health and medical care"}
+{"term": "חיסון", "context": "vaccination, immunization", "category": "health and medical care"}
+{"term": "זריקה", "context": "injection, shot", "category": "health and medical care"}
+{"term": "בדיקת דם", "context": "blood test", "category": "health and medical care"}
+{"term": "צילום רנטגן", "context": "X-ray", "category": "health and medical care"}
+{"term": "אולטרסאונד", "context": "ultrasound scan", "category": "health and medical care"}
+{"term": "ניתוח", "context": "surgery, operation", "category": "health and medical care"}
+{"term": "הרדמה", "context": "anesthesia", "category": "health and medical care"}
+{"term": "אשפוז", "context": "hospitalization, admission to hospital", "category": "health and medical care"}
+{"term": "חום", "context": "fever, high temperature", "category": "health and medical care"}
+{"term": "שיעול", "context": "cough", "category": "health and medical care"}
+{"term": "נזלת", "context": "runny nose", "category": "health and medical care"}
+{"term": "כאב ראש", "context": "headache", "category": "health and medical care"}
+{"term": "כאב בטן", "context": "stomachache", "category": "health and medical care"}
+{"term": "שפעת", "context": "flu, influenza", "category": "health and medical care"}
+{"term": "הצטננות", "context": "common cold", "category": "health and medical care"}
+{"term": "אלרגיה", "context": "allergy", "category": "health and medical care"}
+{"term": "סוכרת", "context": "diabetes", "category": "health and medical care"}
+{"term": "לחץ דם", "context": "blood pressure", "category": "health and medical care"}
+{"term": "התקף לב", "context": "heart attack", "category": "health and medical care"}
+{"term": "גבס", "context": "plaster cast for a broken bone", "category": "health and medical care"}
+{"term": "פיזיותרפיה", "context": "physical therapy", "category": "health and medical care"}
+{"term": "מחלה", "context": "illness, disease", "category": "health and medical care"}
+{"term": "חולה", "context": "sick, ill (adjective); also a patient", "category": "health and medical care"}
+{"term": "בריא", "context": "healthy, well", "category": "health and medical care"}
+{"term": "להבריא", "context": "to recover, get well", "category": "health and medical care"}
+{"term": "לבדוק", "context": "to examine, check (a patient or test result)", "category": "health and medical care"}
+{"term": "לאבחן", "context": "to diagnose", "category": "health and medical care"}
+{"term": "לטפל", "context": "to treat, give medical care", "category": "health and medical care"}
+{"term": "להתחסן", "context": "to get vaccinated", "category": "health and medical care"}
+{"term": "גימלים", "context": "sick leave / sick days", "category": "health and medical care"}
+{"term": "אישור מחלה", "context": "doctor's note certifying sick leave", "category": "health and medical care"}
+{"term": "לאפות", "context": "to bake a cake or bread in the oven", "category": "food, cooking and restaurants"}
+{"term": "לטגן", "context": "to fry food in oil", "category": "food, cooking and restaurants"}
+{"term": "לחתוך", "context": "to chop vegetables with a knife", "category": "food, cooking and restaurants"}
+{"term": "לערבב", "context": "to stir or mix ingredients", "category": "food, cooking and restaurants"}
+{"term": "להזמין", "context": "to order food at a restaurant", "category": "food, cooking and restaurants"}
+{"term": "לאכול", "context": "to eat a meal", "category": "food, cooking and restaurants"}
+{"term": "לצלות", "context": "to roast or grill meat or vegetables", "category": "food, cooking and restaurants"}
+{"term": "לקלף", "context": "to peel potatoes, onions or fruit", "category": "food, cooking and restaurants"}
+{"term": "לטעום", "context": "to taste a dish to check the seasoning", "category": "food, cooking and restaurants"}
+{"term": "מסעדה", "context": "restaurant where you sit and order a meal", "category": "food, cooking and restaurants"}
+{"term": "תפריט", "context": "menu listing dishes at a restaurant", "category": "food, cooking and restaurants"}
+{"term": "מלצר", "context": "waiter who serves customers at the table", "category": "food, cooking and restaurants"}
+{"term": "שף", "context": "chef who leads a restaurant kitchen", "category": "food, cooking and restaurants"}
+{"term": "חשבון", "context": "the bill you ask for at the end of a meal", "category": "food, cooking and restaurants"}
+{"term": "טיפ", "context": "tip left for the waiter", "category": "food, cooking and restaurants"}
+{"term": "מנה", "context": "a single dish or portion served to a diner", "category": "food, cooking and restaurants"}
+{"term": "ארוחת צהריים", "context": "lunch, the midday meal", "category": "food, cooking and restaurants"}
+{"term": "ארוחת ערב", "context": "dinner, the evening meal", "category": "food, cooking and restaurants"}
+{"term": "פלאפל", "context": "fried chickpea balls served in a pita", "category": "food, cooking and restaurants"}
+{"term": "חומוס", "context": "chickpea and tahini spread eaten with pita", "category": "food, cooking and restaurants"}
+{"term": "שקשוקה", "context": "eggs poached in spicy tomato sauce", "category": "food, cooking and restaurants"}
+{"term": "שווארמה", "context": "meat shaved from a spit, served in a pita or laffa", "category": "food, cooking and restaurants"}
+{"term": "סלט ירקות", "context": "chopped cucumber and tomato salad, a staple of Israeli meals", "category": "food, cooking and restaurants"}
+{"term": "פיתה", "context": "round pocket bread", "category": "food, cooking and restaurants"}
+{"term": "טחינה", "context": "sesame paste sauce served with many dishes", "category": "food, cooking and restaurants"}
+{"term": "שניצל", "context": "breaded fried chicken cutlet, a household favorite", "category": "food, cooking and restaurants"}
+{"term": "קפה הפוך", "context": "Israeli latte, coffee with a lot of steamed milk", "category": "food, cooking and restaurants"}
+{"term": "מרק", "context": "soup, e.g. chicken soup on Friday night", "category": "food, cooking and restaurants"}
+{"term": "קינוח", "context": "dessert served after the main course", "category": "food, cooking and restaurants"}
+{"term": "תבלין", "context": "spice or seasoning added to food", "category": "food, cooking and restaurants"}
+{"term": "טעים", "context": "tasty, said of good food", "category": "food, cooking and restaurants"}
+{"term": "חריף", "context": "spicy hot, e.g. a spicy sauce or pepper", "category": "food, cooking and restaurants"}
+{"term": "כשר", "context": "kosher, food permitted under Jewish dietary law", "category": "food, cooking and restaurants"}
+{"term": "צמחוני", "context": "vegetarian, containing no meat", "category": "food, cooking and restaurants"}
+{"term": "רעב", "context": "hungry, wanting to eat", "category": "food, cooking and restaurants"}
+{"term": "שבע", "context": "full after eating enough", "category": "food, cooking and restaurants"}
+{"term": "ארוחה עסקית", "context": "set-price business lunch deal offered by restaurants", "category": "food, cooking and restaurants"}
+{"term": "לעשות על האש", "context": "to hold a barbecue, typically on holidays", "category": "food, cooking and restaurants"}
+{"term": "בתיאבון", "context": "bon appétit, said before a meal", "category": "food, cooking and restaurants"}
+{"term": "שולחן לשניים", "context": "a table for two, said when arriving at a restaurant", "category": "food, cooking and restaurants"}
+{"term": "משלוח", "context": "food delivery brought to your home", "category": "food, cooking and restaurants"}
+{"term": "לחם", "context": "bread, a basic food item", "category": "food, cooking and restaurants"}
+{"term": "קניות", "context": "shopping, buying things (noun, plural)", "category": "shopping, money and banking"}
+{"term": "לקנות", "context": "to buy", "category": "shopping, money and banking"}
+{"term": "למכור", "context": "to sell", "category": "shopping, money and banking"}
+{"term": "לשלם", "context": "to pay", "category": "shopping, money and banking"}
+{"term": "כסף", "context": "money; also silver", "category": "shopping, money and banking"}
+{"term": "מזומן", "context": "cash (as in 'pay in cash')", "category": "shopping, money and banking"}
+{"term": "כרטיס אשראי", "context": "credit card", "category": "shopping, money and banking"}
+{"term": "חשבון בנק", "context": "bank account", "category": "shopping, money and banking"}
+{"term": "בנק", "context": "bank", "category": "shopping, money and banking"}
+{"term": "סניף", "context": "branch of a bank or store", "category": "shopping, money and banking"}
+{"term": "כספומט", "context": "ATM, cash machine", "category": "shopping, money and banking"}
+{"term": "למשוך", "context": "to withdraw money from an account", "category": "shopping, money and banking"}
+{"term": "להפקיד", "context": "to deposit money", "category": "shopping, money and banking"}
+{"term": "להעביר כסף", "context": "to transfer money", "category": "shopping, money and banking"}
+{"term": "העברה בנקאית", "context": "bank transfer", "category": "shopping, money and banking"}
+{"term": "הלוואה", "context": "loan", "category": "shopping, money and banking"}
+{"term": "ריבית", "context": "interest rate", "category": "shopping, money and banking"}
+{"term": "יתרה", "context": "account balance", "category": "shopping, money and banking"}
+{"term": "מינוס", "context": "overdraft; being in the red in one's account", "category": "shopping, money and banking"}
+{"term": "חוב", "context": "debt", "category": "shopping, money and banking"}
+{"term": "קבלה", "context": "receipt", "category": "shopping, money and banking"}
+{"term": "חשבונית", "context": "invoice, tax invoice", "category": "shopping, money and banking"}
+{"term": "מחיר", "context": "price", "category": "shopping, money and banking"}
+{"term": "יקר", "context": "expensive (adjective)", "category": "shopping, money and banking"}
+{"term": "זול", "context": "cheap (adjective)", "category": "shopping, money and banking"}
+{"term": "הנחה", "context": "discount", "category": "shopping, money and banking"}
+{"term": "מבצע", "context": "sale, special offer", "category": "shopping, money and banking"}
+{"term": "סוף עונה", "context": "end-of-season clearance sale", "category": "shopping, money and banking"}
+{"term": "לעשות מחיר", "context": "to give someone a better price (when haggling)", "category": "shopping, money and banking"}
+{"term": "להתמקח", "context": "to haggle, bargain", "category": "shopping, money and banking"}
+{"term": "עודף", "context": "change received after paying", "category": "shopping, money and banking"}
+{"term": "קופה", "context": "checkout counter; cash register", "category": "shopping, money and banking"}
+{"term": "קופאית", "context": "female cashier", "category": "shopping, money and banking"}
+{"term": "עגלת קניות", "context": "shopping cart, trolley", "category": "shopping, money and banking"}
+{"term": "סופרמרקט", "context": "supermarket", "category": "shopping, money and banking"}
+{"term": "מכולת", "context": "grocery store, corner shop", "category": "shopping, money and banking"}
+{"term": "קניון", "context": "shopping mall", "category": "shopping, money and banking"}
+{"term": "שוק", "context": "open-air market", "category": "shopping, money and banking"}
+{"term": "חנות", "context": "shop, store", "category": "shopping, money and banking"}
+{"term": "חנות מקוונת", "context": "online store", "category": "shopping, money and banking"}
+{"term": "להחזיר", "context": "to return an item or give back", "category": "shopping, money and banking"}
+{"term": "החזר כספי", "context": "refund", "category": "shopping, money and banking"}
+{"term": "החלפה", "context": "exchange of an item", "category": "shopping, money and banking"}
+{"term": "אחריות", "context": "warranty, guarantee", "category": "shopping, money and banking"}
+{"term": "תשלומים", "context": "installments (as in 'pay in installments')", "category": "shopping, money and banking"}
+{"term": "שכר", "context": "salary, wages", "category": "shopping, money and banking"}
+{"term": "מע\"מ", "context": "VAT, value added tax", "category": "shopping, money and banking"}
+{"term": "תקציב", "context": "budget", "category": "shopping, money and banking"}
+{"term": "מכונית", "context": "a car, the general word for a private automobile", "category": "transport and driving"}
+{"term": "אוטובוס", "context": "a bus used for public transport", "category": "transport and driving"}
+{"term": "רכבת", "context": "a train, e.g. Israel Railways between cities", "category": "transport and driving"}
+{"term": "מונית", "context": "a taxi you hail or order", "category": "transport and driving"}
+{"term": "אופניים", "context": "a bicycle", "category": "transport and driving"}
+{"term": "אופנוע", "context": "a motorcycle", "category": "transport and driving"}
+{"term": "קורקינט", "context": "an electric scooter commonly used in city streets", "category": "transport and driving"}
+{"term": "משאית", "context": "a truck carrying goods", "category": "transport and driving"}
+{"term": "רכב", "context": "a vehicle, general term often used in 'private vehicle'", "category": "transport and driving"}
+{"term": "נהג", "context": "a driver, e.g. a bus driver", "category": "transport and driving"}
+{"term": "נהגת", "context": "a female driver", "category": "transport and driving"}
+{"term": "נוסע", "context": "a passenger on a bus, train or plane", "category": "transport and driving"}
+{"term": "לנסוע", "context": "to travel or go by vehicle, 'to drive/ride somewhere'", "category": "transport and driving"}
+{"term": "לנהוג", "context": "to drive a vehicle, as in 'to drive a car'", "category": "transport and driving"}
+{"term": "לחנות", "context": "to park a car", "category": "transport and driving"}
+{"term": "חניה", "context": "a parking space or parking in general", "category": "transport and driving"}
+{"term": "חניון", "context": "a parking lot or parking garage", "category": "transport and driving"}
+{"term": "רישיון נהיגה", "context": "a driver's license", "category": "transport and driving"}
+{"term": "טסט", "context": "the annual vehicle inspection required for cars", "category": "transport and driving"}
+{"term": "ביטוח רכב", "context": "car insurance policy", "category": "transport and driving"}
+{"term": "רמזור", "context": "a traffic light", "category": "transport and driving"}
+{"term": "צומת", "context": "an intersection or junction", "category": "transport and driving"}
+{"term": "כיכר", "context": "a roundabout or traffic circle", "category": "transport and driving"}
+{"term": "כביש", "context": "a road or highway", "category": "transport and driving"}
+{"term": "מסלול", "context": "a lane or route on a road", "category": "transport and driving"}
+{"term": "מדרכה", "context": "a sidewalk for pedestrians", "category": "transport and driving"}
+{"term": "מעבר חצייה", "context": "a pedestrian crossing", "category": "transport and driving"}
+{"term": "פקק", "context": "a traffic jam", "category": "transport and driving"}
+{"term": "תנועה", "context": "traffic, as in 'heavy traffic'", "category": "transport and driving"}
+{"term": "תחנה", "context": "a stop or station, e.g. a bus stop", "category": "transport and driving"}
+{"term": "תחנה מרכזית", "context": "a central bus station in a city", "category": "transport and driving"}
+{"term": "כרטיס", "context": "a ticket for a bus, train or flight", "category": "transport and driving"}
+{"term": "רב קו", "context": "the rechargeable smart card for public transport in Israel", "category": "transport and driving"}
+{"term": "דלק", "context": "fuel or gasoline for a vehicle", "category": "transport and driving"}
+{"term": "תחנת דלק", "context": "a gas station", "category": "transport and driving"}
+{"term": "לתדלק", "context": "to fill a vehicle with fuel", "category": "transport and driving"}
+{"term": "גלגל", "context": "a wheel of a vehicle", "category": "transport and driving"}
+{"term": "צמיג", "context": "a tire", "category": "transport and driving"}
+{"term": "פנצ'ר", "context": "a flat tire, a puncture", "category": "transport and driving"}
+{"term": "הגה", "context": "the steering wheel", "category": "transport and driving"}
+{"term": "בלמים", "context": "the brakes of a vehicle", "category": "transport and driving"}
+{"term": "מראה", "context": "a side or rearview mirror in a car", "category": "transport and driving"}
+{"term": "מצבר", "context": "a car battery", "category": "transport and driving"}
+{"term": "ידית הילוכים", "context": "a gear stick or gear shift", "category": "transport and driving"}
+{"term": "אוטומט", "context": "an automatic transmission car", "category": "transport and driving"}
+{"term": "חגורת בטיחות", "context": "a seat belt", "category": "transport and driving"}
+{"term": "תאונה", "context": "an accident, a car crash", "category": "transport and driving"}
+{"term": "מהירות", "context": "speed, as in 'speed limit'", "category": "transport and driving"}
+{"term": "לעקוף", "context": "to overtake another vehicle on the road", "category": "transport and driving"}
+{"term": "להאט", "context": "to slow down while driving", "category": "transport and driving"}
+{"term": "לצפור", "context": "to honk the horn", "category": "transport and driving"}
+{"term": "מילואימניק", "context": "a reservist; someone called up for reserve duty", "category": "IDF and reserve duty"}
+{"term": "צו 8", "context": "emergency call-up order summoning a reservist to duty", "category": "IDF and reserve duty"}
+{"term": "צבא הגנה לישראל", "context": "the Israel Defense Forces, the full official name of the army", "category": "IDF and reserve duty"}
+{"term": "צה\"ל", "context": "IDF; the standard acronym for the Israeli army", "category": "IDF and reserve duty"}
+{"term": "גיוס", "context": "conscription or enlistment into the army", "category": "IDF and reserve duty"}
+{"term": "להתגייס", "context": "to enlist or be drafted into the army", "category": "IDF and reserve duty"}
+{"term": "לשחרר", "context": "to discharge a soldier from service", "category": "IDF and reserve duty"}
+{"term": "שחרור", "context": "discharge; the end of a soldier's service", "category": "IDF and reserve duty"}
+{"term": "חייל", "context": "soldier", "category": "IDF and reserve duty"}
+{"term": "חיילת", "context": "female soldier", "category": "IDF and reserve duty"}
+{"term": "קצין", "context": "officer in the army", "category": "IDF and reserve duty"}
+{"term": "מפקד", "context": "commander; the person in charge of a unit", "category": "IDF and reserve duty"}
+{"term": "סמל", "context": "sergeant, a non-commissioned rank", "category": "IDF and reserve duty"}
+{"term": "טוראי", "context": "private, the lowest enlisted rank", "category": "IDF and reserve duty"}
+{"term": "סגן", "context": "lieutenant, a junior officer rank", "category": "IDF and reserve duty"}
+{"term": "אלוף", "context": "major general, a senior general rank", "category": "IDF and reserve duty"}
+{"term": "רמטכ\"ל", "context": "Chief of the General Staff, the IDF's top commander", "category": "IDF and reserve duty"}
+{"term": "בסיס", "context": "military base", "category": "IDF and reserve duty"}
+{"term": "טירונות", "context": "basic training at the start of service", "category": "IDF and reserve duty"}
+{"term": "טירון", "context": "a recruit in basic training", "category": "IDF and reserve duty"}
+{"term": "קורס קצינים", "context": "officer training course", "category": "IDF and reserve duty"}
+{"term": "גולני", "context": "Golani Brigade, a well-known infantry brigade", "category": "IDF and reserve duty"}
+{"term": "צנחנים", "context": "paratroopers, an elite infantry brigade", "category": "IDF and reserve duty"}
+{"term": "חיל האוויר", "context": "the Israeli Air Force", "category": "IDF and reserve duty"}
+{"term": "חיל הים", "context": "the Israeli Navy", "category": "IDF and reserve duty"}
+{"term": "חיל הרגלים", "context": "the infantry corps", "category": "IDF and reserve duty"}
+{"term": "שריון", "context": "armored corps; tank units", "category": "IDF and reserve duty"}
+{"term": "קרבי", "context": "combat; describes a combat role or unit", "category": "IDF and reserve duty"}
+{"term": "ג'ובניק", "context": "slang for a soldier with a cushy non-combat desk job", "category": "IDF and reserve duty"}
+{"term": "שמירה", "context": "guard duty, a routine soldier assignment", "category": "IDF and reserve duty"}
+{"term": "משמרת", "context": "a shift, such as a guard or watch shift", "category": "IDF and reserve duty"}
+{"term": "סיור", "context": "patrol or reconnaissance mission", "category": "IDF and reserve duty"}
+{"term": "קרב", "context": "battle; combat engagement", "category": "IDF and reserve duty"}
+{"term": "מלחמה", "context": "war", "category": "IDF and reserve duty"}
+{"term": "אזעקה", "context": "air-raid siren warning of incoming rockets", "category": "IDF and reserve duty"}
+{"term": "מקלט", "context": "bomb shelter", "category": "IDF and reserve duty"}
+{"term": "ממ\"ד", "context": "reinforced safe room built inside homes", "category": "IDF and reserve duty"}
+{"term": "כיפת ברזל", "context": "Iron Dome, the missile-defense system", "category": "IDF and reserve duty"}
+{"term": "תעודת שחרור", "context": "certificate of discharge from service", "category": "IDF and reserve duty"}
+{"term": "פטור מצבא", "context": "exemption from military service", "category": "IDF and reserve duty"}
+{"term": "דחיית שירות", "context": "deferment of military service", "category": "IDF and reserve duty"}
+{"term": "גיוס חובה", "context": "mandatory conscription", "category": "IDF and reserve duty"}
+{"term": "שירות סדיר", "context": "regular compulsory military service", "category": "IDF and reserve duty"}
+{"term": "שירות קבע", "context": "permanent career military service", "category": "IDF and reserve duty"}
+{"term": "קבע", "context": "a career soldier, or the career army system", "category": "IDF and reserve duty"}
+{"term": "ציוד", "context": "military equipment or gear", "category": "IDF and reserve duty"}
+{"term": "מדים", "context": "military uniform", "category": "IDF and reserve duty"}
+{"term": "נשק", "context": "weapon; a soldier's firearm", "category": "IDF and reserve duty"}
+{"term": "לצאת לשבת", "context": "to go home for the weekend, a soldier's leave", "category": "IDF and reserve duty"}
+{"term": "בית ספר", "context": "school, where children study", "category": "school, university and studying"}
+{"term": "אוניברסיטה", "context": "university, higher education institution", "category": "school, university and studying"}
+{"term": "מכללה", "context": "college, often more practical or regional than a university", "category": "school, university and studying"}
+{"term": "גן ילדים", "context": "kindergarten, preschool", "category": "school, university and studying"}
+{"term": "תיכון", "context": "high school", "category": "school, university and studying"}
+{"term": "חטיבת ביניים", "context": "middle school, junior high", "category": "school, university and studying"}
+{"term": "כיתה", "context": "classroom or grade level", "category": "school, university and studying"}
+{"term": "מורה", "context": "teacher", "category": "school, university and studying"}
+{"term": "מרצה", "context": "university lecturer", "category": "school, university and studying"}
+{"term": "תלמיד", "context": "pupil, school student", "category": "school, university and studying"}
+{"term": "סטודנט", "context": "university or college student", "category": "school, university and studying"}
+{"term": "ציון", "context": "grade, mark on a test or course", "category": "school, university and studying"}
+{"term": "מבחן", "context": "exam, test", "category": "school, university and studying"}
+{"term": "בוחן", "context": "short quiz in class", "category": "school, university and studying"}
+{"term": "שיעורי בית", "context": "homework assignments", "category": "school, university and studying"}
+{"term": "סמינר", "context": "seminar course requiring a research paper", "category": "school, university and studying"}
+{"term": "תואר ראשון", "context": "bachelor's degree", "category": "school, university and studying"}
+{"term": "תואר שני", "context": "master's degree", "category": "school, university and studying"}
+{"term": "דוקטורט", "context": "PhD, doctoral degree", "category": "school, university and studying"}
+{"term": "תעודה", "context": "certificate or school report card", "category": "school, university and studying"}
+{"term": "בגרות", "context": "matriculation exam at end of high school", "category": "school, university and studying"}
+{"term": "פסיכומטרי", "context": "psychometric entrance exam for universities", "category": "school, university and studying"}
+{"term": "מלגה", "context": "scholarship", "category": "school, university and studying"}
+{"term": "שכר לימוד", "context": "tuition fees", "category": "school, university and studying"}
+{"term": "קמפוס", "context": "university campus", "category": "school, university and studying"}
+{"term": "מעונות", "context": "student dormitories", "category": "school, university and studying"}
+{"term": "ספרייה", "context": "library, place to study", "category": "school, university and studying"}
+{"term": "קורס", "context": "course, class in a degree program", "category": "school, university and studying"}
+{"term": "הרצאה", "context": "lecture", "category": "school, university and studying"}
+{"term": "תרגול", "context": "practice session or tutorial accompanying a lecture", "category": "school, university and studying"}
+{"term": "מערכת שעות", "context": "class timetable, weekly schedule", "category": "school, university and studying"}
+{"term": "חופשת סמסטר", "context": "semester break or school vacation", "category": "school, university and studying"}
+{"term": "ללמוד", "context": "to study, to learn", "category": "school, university and studying"}
+{"term": "ללמד", "context": "to teach", "category": "school, university and studying"}
+{"term": "להרצות", "context": "to give a lecture", "category": "school, university and studying"}
+{"term": "להיבחן", "context": "to take an exam", "category": "school, university and studying"}
+{"term": "להעתיק", "context": "to copy, to cheat on a test", "category": "school, university and studying"}
+{"term": "לדלג על שיעור", "context": "to skip class, play hooky", "category": "school, university and studying"}
+{"term": "להתפרנס מלימודים", "context": "to support oneself through study funding, in the sense of living on student income", "category": "school, university and studying"}
+{"term": "לעבור", "context": "to pass a course or exam", "category": "school, university and studying"}
+{"term": "ליפול", "context": "to fail a test or course, informal", "category": "school, university and studying"}
+{"term": "להירשם", "context": "to register or enroll in a course or institution", "category": "school, university and studying"}
+{"term": "להשלים", "context": "to make up missing material or credits", "category": "school, university and studying"}
+{"term": "חרוץ", "context": "diligent, hardworking in studies", "category": "school, university and studying"}
+{"term": "חנון", "context": "nerd, bookish student, informal", "category": "school, university and studying"}
+{"term": "מצטיין", "context": "outstanding student, excellent", "category": "school, university and studying"}
+{"term": "לימודים", "context": "studies, schooling in general", "category": "school, university and studying"}
+{"term": "ראש השנה", "context": "the Jewish New Year holiday in autumn", "category": "Jewish holidays, religion and tradition"}
+{"term": "יום כיפור", "context": "the Day of Atonement, a fast day of repentance", "category": "Jewish holidays, religion and tradition"}
+{"term": "סוכות", "context": "the harvest festival in which people eat in a temporary booth", "category": "Jewish holidays, religion and tradition"}
+{"term": "פסח", "context": "Passover, the spring holiday commemorating the Exodus from Egypt", "category": "Jewish holidays, religion and tradition"}
+{"term": "שבועות", "context": "the holiday marking the giving of the Torah, associated with dairy foods", "category": "Jewish holidays, religion and tradition"}
+{"term": "חנוכה", "context": "the winter festival of lights lasting eight days", "category": "Jewish holidays, religion and tradition"}
+{"term": "פורים", "context": "the holiday of costumes and Megillat Esther, celebrated in spring", "category": "Jewish holidays, religion and tradition"}
+{"term": "סוכה", "context": "the temporary hut built for the holiday of Sukkot", "category": "Jewish holidays, religion and tradition"}
+{"term": "חנוכייה", "context": "the Hanukkah candelabrum lit during the holiday", "category": "Jewish holidays, religion and tradition"}
+{"term": "סופגנייה", "context": "jelly doughnut traditionally eaten on Hanukkah", "category": "Jewish holidays, religion and tradition"}
+{"term": "מצה", "context": "unleavened bread eaten during Passover", "category": "Jewish holidays, religion and tradition"}
+{"term": "הגדה", "context": "the book read at the Passover seder", "category": "Jewish holidays, religion and tradition"}
+{"term": "סדר פסח", "context": "the festive Passover meal with a set ritual order", "category": "Jewish holidays, religion and tradition"}
+{"term": "חמץ", "context": "leavened food forbidden during Passover", "category": "Jewish holidays, religion and tradition"}
+{"term": "כשרות", "context": "the system of Jewish dietary laws and its certification", "category": "Jewish holidays, religion and tradition"}
+{"term": "בית כנסת", "context": "synagogue, the place of communal prayer", "category": "Jewish holidays, religion and tradition"}
+{"term": "להתפלל", "context": "to pray, e.g. at the synagogue each morning", "category": "Jewish holidays, religion and tradition"}
+{"term": "תפילה", "context": "a prayer, or the prayer service", "category": "Jewish holidays, religion and tradition"}
+{"term": "תורה", "context": "the Torah, the five books of Moses or Jewish teaching", "category": "Jewish holidays, religion and tradition"}
+{"term": "ספר תורה", "context": "handwritten Torah scroll kept in the synagogue", "category": "Jewish holidays, religion and tradition"}
+{"term": "רב", "context": "rabbi, a Jewish religious leader and authority", "category": "Jewish holidays, religion and tradition"}
+{"term": "מניין", "context": "quorum of ten adults required for communal prayer", "category": "Jewish holidays, religion and tradition"}
+{"term": "קידוש", "context": "blessing over wine recited at the start of Shabbat or a holiday", "category": "Jewish holidays, religion and tradition"}
+{"term": "הבדלה", "context": "ceremony at the end of Shabbat separating it from the weekday", "category": "Jewish holidays, religion and tradition"}
+{"term": "הדלקת נרות", "context": "lighting candles to welcome Shabbat or a holiday", "category": "Jewish holidays, religion and tradition"}
+{"term": "חלה", "context": "braided bread eaten on Shabbat and holidays", "category": "Jewish holidays, religion and tradition"}
+{"term": "שומר שבת", "context": "describes a person who observes Shabbat laws", "category": "Jewish holidays, religion and tradition"}
+{"term": "דתי", "context": "adjective: religiously observant", "category": "Jewish holidays, religion and tradition"}
+{"term": "חילוני", "context": "adjective: secular, not religiously observant", "category": "Jewish holidays, religion and tradition"}
+{"term": "חרדי", "context": "ultra-Orthodox Jew, or the adjective for that community", "category": "Jewish holidays, religion and tradition"}
+{"term": "מסורתי", "context": "adjective: someone who keeps some religious traditions without being fully observant", "category": "Jewish holidays, religion and tradition"}
+{"term": "כיפה", "context": "skullcap worn by religious Jewish men", "category": "Jewish holidays, religion and tradition"}
+{"term": "ציצית", "context": "fringed ritual garment worn by observant men", "category": "Jewish holidays, religion and tradition"}
+{"term": "תפילין", "context": "leather boxes with scriptural passages worn during weekday morning prayer", "category": "Jewish holidays, religion and tradition"}
+{"term": "טלית", "context": "prayer shawl worn during prayer", "category": "Jewish holidays, religion and tradition"}
+{"term": "שופר", "context": "ram's horn blown on Rosh Hashanah", "category": "Jewish holidays, religion and tradition"}
+{"term": "לולב", "context": "palm branch waved on Sukkot", "category": "Jewish holidays, religion and tradition"}
+{"term": "אתרוג", "context": "citron fruit used together with the lulav on Sukkot", "category": "Jewish holidays, religion and tradition"}
+{"term": "בר מצווה", "context": "coming-of-age ceremony for a thirteen-year-old boy", "category": "Jewish holidays, religion and tradition"}
+{"term": "בת מצווה", "context": "coming-of-age ceremony for a twelve-year-old girl", "category": "Jewish holidays, religion and tradition"}
+{"term": "ברית מילה", "context": "circumcision ceremony for a newborn Jewish boy", "category": "Jewish holidays, religion and tradition"}
+{"term": "חופה", "context": "the wedding canopy, or the Jewish wedding ceremony itself", "category": "Jewish holidays, religion and tradition"}
+{"term": "שבעה", "context": "seven-day mourning period after the death of a close relative", "category": "Jewish holidays, religion and tradition"}
+{"term": "קדיש", "context": "mourner's prayer recited in memory of the deceased", "category": "Jewish holidays, religion and tradition"}
+{"term": "מזל טוב", "context": "congratulations, said at weddings, births and celebrations", "category": "Jewish holidays, religion and tradition"}
+{"term": "חג שמח", "context": "greeting meaning 'happy holiday'", "category": "Jewish holidays, religion and tradition"}
+{"term": "להניח תפילין", "context": "to put on tefillin for morning prayer", "category": "Jewish holidays, religion and tradition"}
+{"term": "גמר חתימה טובה", "context": "greeting wished around Yom Kippur, 'may you be sealed in the Book of Life'", "category": "Jewish holidays, religion and tradition"}
+{"term": "שמח", "context": "happy, cheerful (masculine adjective)", "category": "emotions and states of mind (adjectives)"}
+{"term": "עצוב", "context": "sad, feeling sorrow", "category": "emotions and states of mind (adjectives)"}
+{"term": "כועס", "context": "angry, mad at someone", "category": "emotions and states of mind (adjectives)"}
+{"term": "מתוסכל", "context": "frustrated, e.g., stuck in traffic or at work", "category": "emotions and states of mind (adjectives)"}
+{"term": "לחוץ", "context": "stressed, under pressure before a deadline", "category": "emotions and states of mind (adjectives)"}
+{"term": "רגוע", "context": "calm, relaxed", "category": "emotions and states of mind (adjectives)"}
+{"term": "מפחד", "context": "afraid, scared of something", "category": "emotions and states of mind (adjectives)"}
+{"term": "חרד", "context": "anxious, worried about the future", "category": "emotions and states of mind (adjectives)"}
+{"term": "מאוכזב", "context": "disappointed by someone or something", "category": "emotions and states of mind (adjectives)"}
+{"term": "מופתע", "context": "surprised by unexpected news", "category": "emotions and states of mind (adjectives)"}
+{"term": "מבולבל", "context": "confused, not understanding what's going on", "category": "emotions and states of mind (adjectives)"}
+{"term": "מובך", "context": "embarrassed, awkward in a social situation", "category": "emotions and states of mind (adjectives)"}
+{"term": "מתבייש", "context": "ashamed or shy", "category": "emotions and states of mind (adjectives)"}
+{"term": "קנאי", "context": "jealous, envious of another person", "category": "emotions and states of mind (adjectives)"}
+{"term": "גאה", "context": "proud, e.g., of one's child", "category": "emotions and states of mind (adjectives)"}
+{"term": "בודד", "context": "lonely, feeling alone", "category": "emotions and states of mind (adjectives)"}
+{"term": "משועמם", "context": "bored, having nothing interesting to do", "category": "emotions and states of mind (adjectives)"}
+{"term": "עייף", "context": "tired, exhausted", "category": "emotions and states of mind (adjectives)"}
+{"term": "נרגש", "context": "excited or emotionally moved", "category": "emotions and states of mind (adjectives)"}
+{"term": "מלא תקווה", "context": "hopeful, full of hope", "category": "emotions and states of mind (adjectives)"}
+{"term": "אופטימי", "context": "optimistic, expecting good outcomes", "category": "emotions and states of mind (adjectives)"}
+{"term": "פסימי", "context": "pessimistic, expecting the worst", "category": "emotions and states of mind (adjectives)"}
+{"term": "מדוכא", "context": "depressed, low in spirits", "category": "emotions and states of mind (adjectives)"}
+{"term": "מאושר", "context": "very happy, blissful", "category": "emotions and states of mind (adjectives)"}
+{"term": "סקרן", "context": "curious, eager to know", "category": "emotions and states of mind (adjectives)"}
+{"term": "מתרגש", "context": "feeling excited or touched, e.g., before a wedding", "category": "emotions and states of mind (adjectives)"}
+{"term": "עצבני", "context": "irritable, edgy, on edge", "category": "emotions and states of mind (adjectives)"}
+{"term": "מרוגז", "context": "annoyed, irritated", "category": "emotions and states of mind (adjectives)"}
+{"term": "מודאג", "context": "worried about someone's wellbeing", "category": "emotions and states of mind (adjectives)"}
+{"term": "אסיר תודה", "context": "grateful, thankful", "category": "emotions and states of mind (adjectives)"}
+{"term": "מתגעגע", "context": "missing someone or something, longing", "category": "emotions and states of mind (adjectives)"}
+{"term": "אדיש", "context": "indifferent, apathetic", "category": "emotions and states of mind (adjectives)"}
+{"term": "שבור", "context": "broken, emotionally devastated", "category": "emotions and states of mind (adjectives)"}
+{"term": "שבע רצון", "context": "content, satisfied", "category": "emotions and states of mind (adjectives)"}
+{"term": "מיואש", "context": "desperate, having given up hope", "category": "emotions and states of mind (adjectives)"}
+{"term": "נבוך", "context": "perplexed or flustered", "category": "emotions and states of mind (adjectives)"}
+{"term": "מפוחד", "context": "frightened, terrified", "category": "emotions and states of mind (adjectives)"}
+{"term": "מתלהב", "context": "enthusiastic, getting excited about an idea", "category": "emotions and states of mind (adjectives)"}
+{"term": "להתאכזב", "context": "to be disappointed (infinitive)", "category": "emotions and states of mind (adjectives)"}
+{"term": "לדאוג", "context": "to worry (infinitive)", "category": "emotions and states of mind (adjectives)"}
+{"term": "להתרגז", "context": "to get angry or annoyed (infinitive)", "category": "emotions and states of mind (adjectives)"}
+{"term": "לקנא", "context": "to envy, be jealous (infinitive)", "category": "emotions and states of mind (adjectives)"}
+{"term": "להתבאס", "context": "to feel bummed out, slang (infinitive)", "category": "emotions and states of mind (adjectives)"}
+{"term": "לא נעים לי", "context": "I feel uncomfortable or embarrassed (expression)", "category": "emotions and states of mind (adjectives)"}
+{"term": "אין לי כוח", "context": "I don't have the energy or desire (expression)", "category": "emotions and states of mind (adjectives)"}
+{"term": "יש לי מצב רוח טוב", "context": "I'm in a good mood (expression)", "category": "emotions and states of mind (adjectives)"}
+{"term": "הלב שלי נשבר", "context": "my heart is broken (expression)", "category": "emotions and states of mind (adjectives)"}
+{"term": "על הקצה", "context": "on edge, at one's limit emotionally (expression)", "category": "emotions and states of mind (adjectives)"}
+{"term": "מבואס", "context": "bummed, down, colloquial for disappointed or sad", "category": "emotions and states of mind (adjectives)"}
+{"term": "לשתות", "context": "to drink, e.g., water or coffee", "category": "common everyday verbs (infinitive)"}
+{"term": "ללכת", "context": "to walk or go somewhere on foot", "category": "common everyday verbs (infinitive)"}
+{"term": "לבוא", "context": "to come to a place", "category": "common everyday verbs (infinitive)"}
+{"term": "לראות", "context": "to see or watch something", "category": "common everyday verbs (infinitive)"}
+{"term": "לשמוע", "context": "to hear or listen to sound or news", "category": "common everyday verbs (infinitive)"}
+{"term": "לדבר", "context": "to speak or talk with someone", "category": "common everyday verbs (infinitive)"}
+{"term": "לומר", "context": "to say something (formal register of 'לגיד')", "category": "common everyday verbs (infinitive)"}
+{"term": "לעשות", "context": "to do or make something", "category": "common everyday verbs (infinitive)"}
+{"term": "לקחת", "context": "to take an object, e.g., a bag or a taxi", "category": "common everyday verbs (infinitive)"}
+{"term": "לתת", "context": "to give something to someone", "category": "common everyday verbs (infinitive)"}
+{"term": "לשים", "context": "to put or place something somewhere", "category": "common everyday verbs (infinitive)"}
+{"term": "לפתוח", "context": "to open a door, window, or file", "category": "common everyday verbs (infinitive)"}
+{"term": "לסגור", "context": "to close or shut something", "category": "common everyday verbs (infinitive)"}
+{"term": "לקום", "context": "to get up from bed or from a seat", "category": "common everyday verbs (infinitive)"}
+{"term": "לשבת", "context": "to sit down or be seated", "category": "common everyday verbs (infinitive)"}
+{"term": "לעמוד", "context": "to stand, e.g., in line", "category": "common everyday verbs (infinitive)"}
+{"term": "לרוץ", "context": "to run, for exercise or to catch a bus", "category": "common everyday verbs (infinitive)"}
+{"term": "להגיע", "context": "to arrive at a destination", "category": "common everyday verbs (infinitive)"}
+{"term": "לצאת", "context": "to go out or leave the house", "category": "common everyday verbs (infinitive)"}
+{"term": "להיכנס", "context": "to enter or come in", "category": "common everyday verbs (infinitive)"}
+{"term": "לחזור", "context": "to return home or come back", "category": "common everyday verbs (infinitive)"}
+{"term": "לקרוא", "context": "to read a book or message", "category": "common everyday verbs (infinitive)"}
+{"term": "לכתוב", "context": "to write a text or an email", "category": "common everyday verbs (infinitive)"}
+{"term": "לחשוב", "context": "to think or consider something", "category": "common everyday verbs (infinitive)"}
+{"term": "לדעת", "context": "to know a fact or information", "category": "common everyday verbs (infinitive)"}
+{"term": "להבין", "context": "to understand an explanation", "category": "common everyday verbs (infinitive)"}
+{"term": "לזכור", "context": "to remember a name or event", "category": "common everyday verbs (infinitive)"}
+{"term": "לשכוח", "context": "to forget something, e.g., keys", "category": "common everyday verbs (infinitive)"}
+{"term": "לאהוב", "context": "to love or like someone or something", "category": "common everyday verbs (infinitive)"}
+{"term": "לרצות", "context": "to want something", "category": "common everyday verbs (infinitive)"}
+{"term": "לצחוק", "context": "to laugh at a joke", "category": "common everyday verbs (infinitive)"}
+{"term": "לבכות", "context": "to cry or weep", "category": "common everyday verbs (infinitive)"}
+{"term": "לשאול", "context": "to ask a question", "category": "common everyday verbs (infinitive)"}
+{"term": "לענות", "context": "to answer a question or a phone call", "category": "common everyday verbs (infinitive)"}
+{"term": "לחכות", "context": "to wait for someone or something", "category": "common everyday verbs (infinitive)"}
+{"term": "לשטוף", "context": "to wash, e.g., dishes or hands", "category": "common everyday verbs (infinitive)"}
+{"term": "לשחק", "context": "to play a game or a sport", "category": "common everyday verbs (infinitive)"}
+{"term": "לטייל", "context": "to go for a walk or take a trip", "category": "common everyday verbs (infinitive)"}
+{"term": "לעזור", "context": "to help someone", "category": "common everyday verbs (infinitive)"}
+{"term": "טלפון", "context": "phone, general term for a telephone", "category": "phones, computers and the internet"}
+{"term": "סמארטפון", "context": "smartphone", "category": "phones, computers and the internet"}
+{"term": "פלאפון", "context": "cell phone (originally a brand name, now generic slang)", "category": "phones, computers and the internet"}
+{"term": "נייד", "context": "mobile phone, as in 'call me on my mobile'", "category": "phones, computers and the internet"}
+{"term": "מחשב נייד", "context": "laptop", "category": "phones, computers and the internet"}
+{"term": "מחשב שולחני", "context": "desktop computer", "category": "phones, computers and the internet"}
+{"term": "טאבלט", "context": "tablet device", "category": "phones, computers and the internet"}
+{"term": "אינטרנט", "context": "the internet", "category": "phones, computers and the internet"}
+{"term": "אתר", "context": "website", "category": "phones, computers and the internet"}
+{"term": "דפדפן", "context": "web browser", "category": "phones, computers and the internet"}
+{"term": "אפליקציה", "context": "mobile app", "category": "phones, computers and the internet"}
+{"term": "תוכנה", "context": "software program installed on a computer", "category": "phones, computers and the internet"}
+{"term": "מערכת הפעלה", "context": "operating system such as Windows or Android", "category": "phones, computers and the internet"}
+{"term": "מסך", "context": "screen or monitor", "category": "phones, computers and the internet"}
+{"term": "מקלדת", "context": "computer keyboard", "category": "phones, computers and the internet"}
+{"term": "עכבר", "context": "computer mouse", "category": "phones, computers and the internet"}
+{"term": "מטען", "context": "charger for a phone or laptop", "category": "phones, computers and the internet"}
+{"term": "סוללה", "context": "battery, as in 'my battery is dying'", "category": "phones, computers and the internet"}
+{"term": "אוזניות", "context": "headphones or earphones", "category": "phones, computers and the internet"}
+{"term": "אוזניות אלחוטיות", "context": "wireless earbuds", "category": "phones, computers and the internet"}
+{"term": "בלוטות'", "context": "Bluetooth connection", "category": "phones, computers and the internet"}
+{"term": "ראוטר", "context": "home internet router", "category": "phones, computers and the internet"}
+{"term": "וויי פיי", "context": "Wi-Fi, wireless internet connection", "category": "phones, computers and the internet"}
+{"term": "סיסמה", "context": "password for an account or device", "category": "phones, computers and the internet"}
+{"term": "דואר אלקטרוני", "context": "email as a system or service", "category": "phones, computers and the internet"}
+{"term": "הודעה", "context": "message, e.g. a text or chat message", "category": "phones, computers and the internet"}
+{"term": "וואטסאפ", "context": "WhatsApp, the dominant messaging app in Israel", "category": "phones, computers and the internet"}
+{"term": "קבוצה", "context": "group chat, as in a WhatsApp group", "category": "phones, computers and the internet"}
+{"term": "רשת חברתית", "context": "social network", "category": "phones, computers and the internet"}
+{"term": "פייסבוק", "context": "Facebook", "category": "phones, computers and the internet"}
+{"term": "אינסטגרם", "context": "Instagram", "category": "phones, computers and the internet"}
+{"term": "סטורי", "context": "story posted on Instagram or Facebook", "category": "phones, computers and the internet"}
+{"term": "לייק", "context": "like on a social media post", "category": "phones, computers and the internet"}
+{"term": "קובץ", "context": "computer file", "category": "phones, computers and the internet"}
+{"term": "תיקייה", "context": "folder on a computer", "category": "phones, computers and the internet"}
+{"term": "ענן", "context": "cloud storage", "category": "phones, computers and the internet"}
+{"term": "אחסון", "context": "storage space on a device or online", "category": "phones, computers and the internet"}
+{"term": "לגלוש", "context": "to browse or surf the web", "category": "phones, computers and the internet"}
+{"term": "להוריד", "context": "to download a file or app", "category": "phones, computers and the internet"}
+{"term": "להעלות", "context": "to upload a file or post a photo online", "category": "phones, computers and the internet"}
+{"term": "להתקין", "context": "to install a program or app", "category": "phones, computers and the internet"}
+{"term": "לעדכן", "context": "to update software or an app", "category": "phones, computers and the internet"}
+{"term": "להתחבר", "context": "to log in or connect to a network", "category": "phones, computers and the internet"}
+{"term": "להתנתק", "context": "to log out or disconnect", "category": "phones, computers and the internet"}
+{"term": "לשלוח", "context": "to send a message or email", "category": "phones, computers and the internet"}
+{"term": "לצלצל", "context": "to ring, or to call someone by phone", "category": "phones, computers and the internet"}
+{"term": "להקליד", "context": "to type on a keyboard", "category": "phones, computers and the internet"}
+{"term": "תקוע", "context": "frozen or stuck, said of a device or program that hangs", "category": "phones, computers and the internet"}
+{"term": "גשם", "context": "rain, as in 'it rained all night'", "category": "weather, nature and animals"}
+{"term": "שמש", "context": "the sun; 'sunny weather'", "category": "weather, nature and animals"}
+{"term": "רוח", "context": "wind, as in 'there is a strong wind today'", "category": "weather, nature and animals"}
+{"term": "סערה", "context": "a storm", "category": "weather, nature and animals"}
+{"term": "ברק", "context": "lightning", "category": "weather, nature and animals"}
+{"term": "רעם", "context": "thunder", "category": "weather, nature and animals"}
+{"term": "שלג", "context": "snow, rare in Israel but seen on Mount Hermon", "category": "weather, nature and animals"}
+{"term": "ערפל", "context": "fog, e.g. in the morning on the roads", "category": "weather, nature and animals"}
+{"term": "קור", "context": "cold weather; 'it's freezing today'", "category": "weather, nature and animals"}
+{"term": "לח", "context": "humid, describing the coastal climate", "category": "weather, nature and animals"}
+{"term": "יבש", "context": "dry, of weather or land", "category": "weather, nature and animals"}
+{"term": "חמסין", "context": "a hot dry desert wind that raises temperatures", "category": "weather, nature and animals"}
+{"term": "שרב", "context": "a heat wave, oppressive hot weather", "category": "weather, nature and animals"}
+{"term": "קשת", "context": "rainbow after the rain", "category": "weather, nature and animals"}
+{"term": "טל", "context": "morning dew on the grass", "category": "weather, nature and animals"}
+{"term": "ברד", "context": "hail falling during a storm", "category": "weather, nature and animals"}
+{"term": "להמטיר", "context": "to pour rain, as in 'it's pouring'", "category": "weather, nature and animals"}
+{"term": "לרדת", "context": "to fall, as in 'rain is coming down'", "category": "weather, nature and animals"}
+{"term": "לנשב", "context": "to blow, said of the wind", "category": "weather, nature and animals"}
+{"term": "להפשיר", "context": "to thaw or melt, of snow and ice", "category": "weather, nature and animals"}
+{"term": "להתחמם", "context": "to warm up, as the weather does in spring", "category": "weather, nature and animals"}
+{"term": "מעונן", "context": "cloudy, overcast sky", "category": "weather, nature and animals"}
+{"term": "גשום", "context": "rainy, as in 'a rainy day'", "category": "weather, nature and animals"}
+{"term": "אביב", "context": "spring, the season", "category": "weather, nature and animals"}
+{"term": "קיץ", "context": "summer, the hot season", "category": "weather, nature and animals"}
+{"term": "סתיו", "context": "autumn, season of falling leaves", "category": "weather, nature and animals"}
+{"term": "חורף", "context": "winter, the rainy season in Israel", "category": "weather, nature and animals"}
+{"term": "עץ", "context": "a tree in the park or garden", "category": "weather, nature and animals"}
+{"term": "פרח", "context": "a flower in the garden", "category": "weather, nature and animals"}
+{"term": "דשא", "context": "lawn or grass", "category": "weather, nature and animals"}
+{"term": "הר", "context": "a mountain or hill, e.g. in the Galilee", "category": "weather, nature and animals"}
+{"term": "נחל", "context": "a stream or wadi in the countryside", "category": "weather, nature and animals"}
+{"term": "חוף", "context": "a beach by the sea", "category": "weather, nature and animals"}
+{"term": "מדבר", "context": "desert, as in the Negev", "category": "weather, nature and animals"}
+{"term": "יער", "context": "forest, e.g. a Carmel woodland", "category": "weather, nature and animals"}
+{"term": "שדה", "context": "a field, agricultural or open land", "category": "weather, nature and animals"}
+{"term": "כלב", "context": "a dog, the common pet", "category": "weather, nature and animals"}
+{"term": "חתול", "context": "a cat, house pet or stray in the street", "category": "weather, nature and animals"}
+{"term": "ציפור", "context": "a bird singing outside", "category": "weather, nature and animals"}
+{"term": "דג", "context": "a fish, in the sea or on a plate", "category": "weather, nature and animals"}
+{"term": "סוס", "context": "a horse", "category": "weather, nature and animals"}
+{"term": "פרה", "context": "a cow on a farm", "category": "weather, nature and animals"}
+{"term": "נחש", "context": "a snake, as in a snake in the field", "category": "weather, nature and animals"}
+{"term": "יתוש", "context": "a mosquito, bothersome in summer nights", "category": "weather, nature and animals"}
+{"term": "דבורה", "context": "a bee collecting honey", "category": "weather, nature and animals"}
+{"term": "פרפר", "context": "a butterfly", "category": "weather, nature and animals"}
+{"term": "ג'ירפה", "context": "a giraffe, as seen at the zoo", "category": "weather, nature and animals"}
+{"term": "לצייץ", "context": "to chirp, of birds", "category": "weather, nature and animals"}
+{"term": "כדורגל", "context": "football/soccer, the most popular spectator sport", "category": "sports, hobbies and leisure"}
+{"term": "כדורסל", "context": "basketball, e.g. watching a Maccabi Tel Aviv game", "category": "sports, hobbies and leisure"}
+{"term": "משחק", "context": "a game or match, as in 'the game starts at eight'", "category": "sports, hobbies and leisure"}
+{"term": "אוהד", "context": "a fan or supporter of a sports team", "category": "sports, hobbies and leisure"}
+{"term": "אצטדיון", "context": "stadium where matches are held", "category": "sports, hobbies and leisure"}
+{"term": "אימון", "context": "a training session or workout", "category": "sports, hobbies and leisure"}
+{"term": "להתאמן", "context": "to train or work out regularly", "category": "sports, hobbies and leisure"}
+{"term": "ריצה", "context": "running as a sport or morning routine", "category": "sports, hobbies and leisure"}
+{"term": "חדר כושר", "context": "gym, a place with weights and machines", "category": "sports, hobbies and leisure"}
+{"term": "כושר", "context": "physical fitness, as in 'to be in shape'", "category": "sports, hobbies and leisure"}
+{"term": "יוגה", "context": "yoga classes or practice", "category": "sports, hobbies and leisure"}
+{"term": "פילאטיס", "context": "pilates, a popular studio workout", "category": "sports, hobbies and leisure"}
+{"term": "שחייה", "context": "swimming as a sport or exercise", "category": "sports, hobbies and leisure"}
+{"term": "לשחות", "context": "to swim in a pool or the sea", "category": "sports, hobbies and leisure"}
+{"term": "בריכה", "context": "swimming pool", "category": "sports, hobbies and leisure"}
+{"term": "גלישה", "context": "surfing or windsurfing on the sea", "category": "sports, hobbies and leisure"}
+{"term": "מטקות", "context": "paddle-ball beach game played with wooden rackets", "category": "sports, hobbies and leisure"}
+{"term": "טיול", "context": "a trip or hike, such as a weekend nature outing", "category": "sports, hobbies and leisure"}
+{"term": "טרקטורון", "context": "ATV, a leisure vehicle for off-road rides", "category": "sports, hobbies and leisure"}
+{"term": "רכיבה", "context": "cycling or riding as an activity", "category": "sports, hobbies and leisure"}
+{"term": "קמפינג", "context": "camping outdoors with a tent", "category": "sports, hobbies and leisure"}
+{"term": "מנגל", "context": "barbecue, the classic Israeli weekend activity", "category": "sports, hobbies and leisure"}
+{"term": "פיקניק", "context": "picnic in a park", "category": "sports, hobbies and leisure"}
+{"term": "קולנוע", "context": "cinema, going out to see a movie", "category": "sports, hobbies and leisure"}
+{"term": "סרט", "context": "a film watched at home or in a theater", "category": "sports, hobbies and leisure"}
+{"term": "סדרה", "context": "TV series that people binge on streaming services", "category": "sports, hobbies and leisure"}
+{"term": "תיאטרון", "context": "theater, a night out to see a play", "category": "sports, hobbies and leisure"}
+{"term": "הופעה", "context": "a live concert or show", "category": "sports, hobbies and leisure"}
+{"term": "פסטיבל", "context": "festival, such as a music or film festival", "category": "sports, hobbies and leisure"}
+{"term": "קריאה", "context": "reading as a hobby", "category": "sports, hobbies and leisure"}
+{"term": "ספר", "context": "a book read for pleasure", "category": "sports, hobbies and leisure"}
+{"term": "קלפים", "context": "playing cards, for a game among friends", "category": "sports, hobbies and leisure"}
+{"term": "שש בש", "context": "backgammon, a popular pastime in cafes and homes", "category": "sports, hobbies and leisure"}
+{"term": "שחמט", "context": "chess as a hobby or competitive game", "category": "sports, hobbies and leisure"}
+{"term": "פאזל", "context": "jigsaw puzzle as a relaxing hobby", "category": "sports, hobbies and leisure"}
+{"term": "משחק קופסה", "context": "board game played with family or friends", "category": "sports, hobbies and leisure"}
+{"term": "גיימינג", "context": "playing video games as a hobby", "category": "sports, hobbies and leisure"}
+{"term": "פלייסטיישן", "context": "game console, often used to say 'playing PlayStation'", "category": "sports, hobbies and leisure"}
+{"term": "צילום", "context": "photography as a hobby", "category": "sports, hobbies and leisure"}
+{"term": "ציור", "context": "painting or drawing as a leisure activity", "category": "sports, hobbies and leisure"}
+{"term": "בישול", "context": "cooking as a hobby, not just a chore", "category": "sports, hobbies and leisure"}
+{"term": "גינון", "context": "gardening as a hobby", "category": "sports, hobbies and leisure"}
+{"term": "ספורטיבי", "context": "sporty, describing a person or style of clothing", "category": "sports, hobbies and leisure"}
+{"term": "תחרותי", "context": "competitive, describing a game or a person's attitude", "category": "sports, hobbies and leisure"}
+{"term": "לנצח", "context": "to win a game or match", "category": "sports, hobbies and leisure"}
+{"term": "לבלות", "context": "to spend time having fun, as in 'to have a good time'", "category": "sports, hobbies and leisure"}
+{"term": "ביורוקרטיה", "context": "red tape; the bureaucratic hassle of dealing with offices", "category": "government offices, bureaucracy and law"}
+{"term": "משרד הפנים", "context": "Ministry of the Interior, where you renew ID cards and passports", "category": "government offices, bureaucracy and law"}
+{"term": "תעודת זהות", "context": "national ID card every Israeli carries", "category": "government offices, bureaucracy and law"}
+{"term": "דרכון", "context": "passport for travelling abroad", "category": "government offices, bureaucracy and law"}
+{"term": "ביטוח לאומי", "context": "National Insurance Institute, pays allowances and pensions", "category": "government offices, bureaucracy and law"}
+{"term": "רשות המסים", "context": "Tax Authority, handles income tax and VAT", "category": "government offices, bureaucracy and law"}
+{"term": "מס הכנסה", "context": "income tax, deducted from salary", "category": "government offices, bureaucracy and law"}
+{"term": "לשלם ארנונה", "context": "to pay the municipal property tax to the local council", "category": "government offices, bureaucracy and law"}
+{"term": "עירייה", "context": "city hall or municipality", "category": "government offices, bureaucracy and law"}
+{"term": "ועד בית", "context": "building committee that manages shared expenses in an apartment block", "category": "government offices, bureaucracy and law"}
+{"term": "טופס", "context": "an official form you must fill out", "category": "government offices, bureaucracy and law"}
+{"term": "למלא טופס", "context": "to fill out a form at an office", "category": "government offices, bureaucracy and law"}
+{"term": "אישור", "context": "a permit, approval or certificate issued by an authority", "category": "government offices, bureaucracy and law"}
+{"term": "היתר בנייה", "context": "building permit needed before renovating or constructing", "category": "government offices, bureaucracy and law"}
+{"term": "לחדש רישיון", "context": "to renew a license", "category": "government offices, bureaucracy and law"}
+{"term": "תור", "context": "queue or appointment slot at an office or clinic", "category": "government offices, bureaucracy and law"}
+{"term": "פקיד", "context": "clerk working at a government office", "category": "government offices, bureaucracy and law"}
+{"term": "פקידה", "context": "female clerk behind the counter at an office", "category": "government offices, bureaucracy and law"}
+{"term": "חותמת", "context": "official stamp required on documents", "category": "government offices, bureaucracy and law"}
+{"term": "חתימה", "context": "signature on a document or contract", "category": "government offices, bureaucracy and law"}
+{"term": "לחתום", "context": "to sign a document", "category": "government offices, bureaucracy and law"}
+{"term": "אישור נוטריוני", "context": "notarized confirmation of a document or signature", "category": "government offices, bureaucracy and law"}
+{"term": "עורך דין", "context": "lawyer or attorney", "category": "government offices, bureaucracy and law"}
+{"term": "בית משפט", "context": "court of law", "category": "government offices, bureaucracy and law"}
+{"term": "בית משפט לתביעות קטנות", "context": "small claims court for minor monetary disputes", "category": "government offices, bureaucracy and law"}
+{"term": "תביעה", "context": "a lawsuit or legal claim", "category": "government offices, bureaucracy and law"}
+{"term": "לתבוע", "context": "to sue someone", "category": "government offices, bureaucracy and law"}
+{"term": "עדות", "context": "testimony given in court or to police", "category": "government offices, bureaucracy and law"}
+{"term": "עד", "context": "a witness in a legal proceeding", "category": "government offices, bureaucracy and law"}
+{"term": "חוזה שכירות", "context": "rental agreement between tenant and landlord", "category": "government offices, bureaucracy and law"}
+{"term": "ערבות", "context": "guarantee or surety, often required for a loan or lease", "category": "government offices, bureaucracy and law"}
+{"term": "ערב", "context": "a guarantor who signs to back someone's obligation", "category": "government offices, bureaucracy and law"}
+{"term": "ייפוי כוח", "context": "power of attorney authorizing someone to act on your behalf", "category": "government offices, bureaucracy and law"}
+{"term": "צוואה", "context": "a will specifying inheritance", "category": "government offices, bureaucracy and law"}
+{"term": "ירושה", "context": "inheritance of a deceased person's estate", "category": "government offices, bureaucracy and law"}
+{"term": "הוצאה לפועל", "context": "the debt enforcement office that collects judgments", "category": "government offices, bureaucracy and law"}
+{"term": "עיקול", "context": "legal seizure of property or bank account over debt", "category": "government offices, bureaucracy and law"}
+{"term": "קנס", "context": "a fine, for example for a traffic violation", "category": "government offices, bureaucracy and law"}
+{"term": "משטרה", "context": "the police", "category": "government offices, bureaucracy and law"}
+{"term": "להגיש תלונה", "context": "to file a complaint with the police", "category": "government offices, bureaucracy and law"}
+{"term": "ערעור", "context": "an appeal against a decision or ruling", "category": "government offices, bureaucracy and law"}
+{"term": "חוקי", "context": "legal, in accordance with the law", "category": "government offices, bureaucracy and law"}
+{"term": "בלתי חוקי", "context": "illegal, against the law", "category": "government offices, bureaucracy and law"}
+{"term": "זכאות", "context": "entitlement to a benefit or right", "category": "government offices, bureaucracy and law"}
+{"term": "אזרחות", "context": "citizenship of a country", "category": "government offices, bureaucracy and law"}
+{"term": "ועדה", "context": "a committee that reviews and decides applications", "category": "government offices, bureaucracy and law"}
+{"term": "סעיף", "context": "a clause or section in a law or contract", "category": "government offices, bureaucracy and law"}
+{"term": "נסיעה", "context": "a journey or ride by car, bus or train", "category": "travel and vacations"}
+{"term": "טיסה", "context": "a flight on an airplane", "category": "travel and vacations"}
+{"term": "שדה תעופה", "context": "airport", "category": "travel and vacations"}
+{"term": "ויזה", "context": "entry visa required for a foreign country", "category": "travel and vacations"}
+{"term": "מזוודה", "context": "suitcase", "category": "travel and vacations"}
+{"term": "תרמיל", "context": "backpack for travel or hiking", "category": "travel and vacations"}
+{"term": "כרטיס טיסה", "context": "plane ticket", "category": "travel and vacations"}
+{"term": "הזמנה", "context": "a booking or reservation, e.g. of a hotel", "category": "travel and vacations"}
+{"term": "מלון", "context": "hotel", "category": "travel and vacations"}
+{"term": "צימר", "context": "a rural guesthouse or B&B cabin, very popular in Israel", "category": "travel and vacations"}
+{"term": "אכסניה", "context": "hostel for budget travelers", "category": "travel and vacations"}
+{"term": "אירוח", "context": "accommodation or hosting of guests", "category": "travel and vacations"}
+{"term": "חדר", "context": "a room in a hotel", "category": "travel and vacations"}
+{"term": "מדריך טיולים", "context": "tour guide who leads groups", "category": "travel and vacations"}
+{"term": "תייר", "context": "a tourist visiting a place", "category": "travel and vacations"}
+{"term": "תיירות", "context": "tourism as an industry or activity", "category": "travel and vacations"}
+{"term": "אטרקציה", "context": "a tourist attraction", "category": "travel and vacations"}
+{"term": "מפה", "context": "a map for finding your way", "category": "travel and vacations"}
+{"term": "ים", "context": "the sea, a typical vacation destination", "category": "travel and vacations"}
+{"term": "אוהל", "context": "tent used when camping", "category": "travel and vacations"}
+{"term": "שק שינה", "context": "sleeping bag for camping", "category": "travel and vacations"}
+{"term": "מדורה", "context": "campfire at a camping site", "category": "travel and vacations"}
+{"term": "טרק", "context": "a long trek or hiking expedition, often abroad", "category": "travel and vacations"}
+{"term": "לטוס", "context": "to fly, travel by airplane", "category": "travel and vacations"}
+{"term": "לארוז", "context": "to pack bags before a trip", "category": "travel and vacations"}
+{"term": "לנחות", "context": "to land at the destination", "category": "travel and vacations"}
+{"term": "להמריא", "context": "to take off, as a plane", "category": "travel and vacations"}
+{"term": "לצלם", "context": "to take photos on a trip", "category": "travel and vacations"}
+{"term": "להתאקלם", "context": "to get used to a new place or climate", "category": "travel and vacations"}
+{"term": "לבקר", "context": "to visit a place or sight", "category": "travel and vacations"}
+{"term": "לעשות צ'ק אין", "context": "to check in at a hotel or the airport", "category": "travel and vacations"}
+{"term": "מלוכלך", "context": "dirty, e.g. a complaint about a hotel room", "category": "travel and vacations"}
+{"term": "מושלם", "context": "perfect, describing a vacation or hotel", "category": "travel and vacations"}
+{"term": "מאורגן", "context": "organized, as in an organized tour", "category": "travel and vacations"}
+{"term": "אקזוטי", "context": "exotic, describing a faraway destination", "category": "travel and vacations"}
+{"term": "הכל כלול", "context": "all-inclusive vacation package", "category": "travel and vacations"}
+{"term": "חופשה בחו\"ל", "context": "a vacation abroad", "category": "travel and vacations"}
+{"term": "טיול שנתי", "context": "annual class or workplace trip", "category": "travel and vacations"}
+{"term": "עונה", "context": "a season of a TV series", "category": "media, culture and entertainment"}
+{"term": "פרק", "context": "an episode of a series", "category": "media, culture and entertainment"}
+{"term": "שחקן", "context": "an actor (male) in a film, play or show", "category": "media, culture and entertainment"}
+{"term": "במאי", "context": "a director of a film or theater production", "category": "media, culture and entertainment"}
+{"term": "תסריט", "context": "a script or screenplay for a film or show", "category": "media, culture and entertainment"}
+{"term": "הצגה", "context": "a stage play or theatrical performance", "category": "media, culture and entertainment"}
+{"term": "קונצרט", "context": "a concert, especially classical or large-scale music event", "category": "media, culture and entertainment"}
+{"term": "זמר", "context": "a singer (male)", "category": "media, culture and entertainment"}
+{"term": "להקה", "context": "a music band or group", "category": "media, culture and entertainment"}
+{"term": "שיר", "context": "a song", "category": "media, culture and entertainment"}
+{"term": "אלבום", "context": "a music album released by an artist", "category": "media, culture and entertainment"}
+{"term": "להקשיב", "context": "to listen, e.g. to music or a podcast", "category": "media, culture and entertainment"}
+{"term": "לצפות", "context": "to watch, e.g. a show or a match on screen", "category": "media, culture and entertainment"}
+{"term": "לשדר", "context": "to broadcast a program on TV or radio", "category": "media, culture and entertainment"}
+{"term": "ערוץ", "context": "a TV channel", "category": "media, culture and entertainment"}
+{"term": "תוכנית", "context": "a TV or radio program", "category": "media, culture and entertainment"}
+{"term": "ריאליטי", "context": "reality TV, a genre of unscripted competition shows", "category": "media, culture and entertainment"}
+{"term": "חדשות", "context": "the news, as a broadcast or press content", "category": "media, culture and entertainment"}
+{"term": "עיתון", "context": "a newspaper", "category": "media, culture and entertainment"}
+{"term": "עיתונאי", "context": "a journalist or reporter", "category": "media, culture and entertainment"}
+{"term": "כתבה", "context": "a news article or report piece", "category": "media, culture and entertainment"}
+{"term": "כותרת", "context": "a headline of an article or news item", "category": "media, culture and entertainment"}
+{"term": "ראיון", "context": "an interview with a person for media", "category": "media, culture and entertainment"}
+{"term": "פודקאסט", "context": "a podcast, an audio series you download or stream", "category": "media, culture and entertainment"}
+{"term": "רדיו", "context": "radio, the device or the broadcast medium", "category": "media, culture and entertainment"}
+{"term": "טיקטוק", "context": "TikTok, the short-video social platform", "category": "media, culture and entertainment"}
+{"term": "משפיען", "context": "an influencer on social media", "category": "media, culture and entertainment"}
+{"term": "לעשות לייק", "context": "to like a post on social media", "category": "media, culture and entertainment"}
+{"term": "לעקוב", "context": "to follow an account on social media", "category": "media, culture and entertainment"}
+{"term": "סרטון", "context": "a short video clip online", "category": "media, culture and entertainment"}
+{"term": "ויראלי", "context": "viral, spreading rapidly online", "category": "media, culture and entertainment"}
+{"term": "סלבריטי", "context": "a celebrity or famous public figure", "category": "media, culture and entertainment"}
+{"term": "מפורסם", "context": "famous or well-known, describing a person or work", "category": "media, culture and entertainment"}
+{"term": "קומדיה", "context": "a comedy film, show or genre", "category": "media, culture and entertainment"}
+{"term": "דרמה", "context": "a drama, a serious film or series genre", "category": "media, culture and entertainment"}
+{"term": "אימה", "context": "horror, as in a horror film genre", "category": "media, culture and entertainment"}
+{"term": "מרגש", "context": "moving or touching, describing a film, song or performance", "category": "media, culture and entertainment"}
+{"term": "משעמם", "context": "boring, describing a movie or show", "category": "media, culture and entertainment"}
+{"term": "קליפ", "context": "a music video clip", "category": "media, culture and entertainment"}
+{"term": "ספר רב מכר", "context": "a bestseller book", "category": "media, culture and entertainment"}
+{"term": "תערוכה", "context": "an exhibition of art or photography, e.g. in a museum or gallery", "category": "media, culture and entertainment"}
+{"term": "סבבה", "context": "Slang adjective/interjection meaning 'cool' or 'fine', used to agree or approve", "category": "common Hebrew idioms and expressions"}
+{"term": "אחלה", "context": "Slang adjective meaning 'great' or 'excellent', as in 'he's an אחלה guy'", "category": "common Hebrew idioms and expressions"}
+{"term": "יאללה", "context": "Interjection meaning 'come on' or 'let's go', also used for urging or agreeing", "category": "common Hebrew idioms and expressions"}
+{"term": "חבל על הזמן", "context": "Literally 'a waste of time'; used ironically to mean 'amazing, outstanding'", "category": "common Hebrew idioms and expressions"}
+{"term": "על הפנים", "context": "Literally 'on the face'; means something is awful or in terrible shape", "category": "common Hebrew idioms and expressions"}
+{"term": "בקטנה", "context": "Literally 'in the small'; means 'no big deal' or 'easily'", "category": "common Hebrew idioms and expressions"}
+{"term": "מה הקשר", "context": "Literally 'what's the connection'; used to say 'that's irrelevant' or 'what does that have to do with it'", "category": "common Hebrew idioms and expressions"}
+{"term": "אין מצב", "context": "Literally 'no situation'; means 'no way' or 'impossible'", "category": "common Hebrew idioms and expressions"}
+{"term": "יהיה בסדר", "context": "Optimistic phrase meaning 'it will be fine', a staple of Israeli attitude", "category": "common Hebrew idioms and expressions"}
+{"term": "לא נורא", "context": "Means 'not terrible'; used to say 'it's okay, no problem'", "category": "common Hebrew idioms and expressions"}
+{"term": "בכיף", "context": "Adverb meaning 'with pleasure' or 'gladly'; also 'enjoyably'", "category": "common Hebrew idioms and expressions"}
+{"term": "על הכיפק", "context": "Slang meaning 'great, awesome', often about a fun time or something excellent", "category": "common Hebrew idioms and expressions"}
+{"term": "דבר איתי", "context": "Literally 'talk to me'; a casual greeting like 'what's up' or an invitation to speak", "category": "common Hebrew idioms and expressions"}
+{"term": "מה נשמע", "context": "Standard everyday greeting meaning 'how are you / what's up'", "category": "common Hebrew idioms and expressions"}
+{"term": "מה העניינים", "context": "Casual greeting meaning 'how are things'", "category": "common Hebrew idioms and expressions"}
+{"term": "תכל'ס", "context": "Slang from 'tachlit' meaning 'bottom line' or 'to be honest'", "category": "common Hebrew idioms and expressions"}
+{"term": "בלי עין הרע", "context": "Said after praising something to ward off the evil eye, like 'touch wood'", "category": "common Hebrew idioms and expressions"}
+{"term": "ברוך השם", "context": "Literally 'blessed be the Name'; used to say 'thank God', also by secular speakers", "category": "common Hebrew idioms and expressions"}
+{"term": "בעזרת השם", "context": "Literally 'with God's help'; used for 'God willing' when speaking of future plans", "category": "common Hebrew idioms and expressions"}
+{"term": "חלס", "context": "Slang meaning 'enough, stop it' or 'cut it out'", "category": "common Hebrew idioms and expressions"}
+{"term": "נו", "context": "Interjection of impatience or prompting, like 'well?' or 'come on'", "category": "common Hebrew idioms and expressions"}
+{"term": "וואלה", "context": "Slang interjection meaning 'really?' or 'wow'", "category": "common Hebrew idioms and expressions"}
+{"term": "ממש", "context": "Intensifier meaning 'really' or 'truly', used constantly in speech", "category": "common Hebrew idioms and expressions"}
+{"term": "לא יאומן", "context": "Adjective phrase meaning 'unbelievable'", "category": "common Hebrew idioms and expressions"}
+{"term": "להרים טלפון", "context": "Literally 'to lift a phone'; means to make a phone call", "category": "common Hebrew idioms and expressions"}
+{"term": "לשבור את הראש", "context": "Literally 'to break the head'; means to rack one's brain over a problem", "category": "common Hebrew idioms and expressions"}
+{"term": "לעשות חיים", "context": "Literally 'to make life'; means to have a great, fun time", "category": "common Hebrew idioms and expressions"}
+{"term": "להוריד פרופיל", "context": "Literally 'to lower profile'; means to keep a low profile or calm down", "category": "common Hebrew idioms and expressions"}
+{"term": "לקחתללב", "context": "Literally 'to take to heart'; means to take something personally or be upset by it", "category": "common Hebrew idioms and expressions"}
+{"term": "לפתוח את הפה", "context": "Literally 'to open the mouth'; means to speak up or say something", "category": "common Hebrew idioms and expressions"}
+{"term": "להפיל על", "context": "Literally 'to drop on'; means to dump a task or problem on someone", "category": "common Hebrew idioms and expressions"}
+{"term": "לעשות עניין", "context": "Literally 'to make an issue'; means to make a fuss over something", "category": "common Hebrew idioms and expressions"}
+{"term": "לשים קצ'פ", "context": "Slang meaning to cause a stir or get into a fight, from a ketchup colloquialism", "category": "common Hebrew idioms and expressions"}
+{"term": "לתפוס טרמפ", "context": "To hitchhike or catch a ride, also figuratively to take advantage of someone else's effort", "category": "common Hebrew idioms and expressions"}
+{"term": "לגמור את החודש", "context": "Literally 'to finish the month'; refers to making ends meet financially", "category": "common Hebrew idioms and expressions"}
+{"term": "ללכת על זה", "context": "Literally 'to go on it'; means to go for it or commit to something", "category": "common Hebrew idioms and expressions"}
+{"term": "לא מתחבר לי", "context": "Literally 'it doesn't connect for me'; means 'it doesn't appeal to me'", "category": "common Hebrew idioms and expressions"}
+{"term": "לדפוק חשבון", "context": "Slang meaning to ignore, not care about something", "category": "common Hebrew idioms and expressions"}
+{"term": "לעוף על", "context": "Literally 'to fly on'; slang for being crazy about or really liking something", "category": "common Hebrew idioms and expressions"}
+{"term": "קטן עליי", "context": "Literally 'small on me'; means 'I can easily handle that, no problem'", "category": "common Hebrew idioms and expressions"}
+{"term": "פאדיחה", "context": "Noun meaning an embarrassing blunder or faux pas", "category": "common Hebrew idioms and expressions"}
+{"term": "בלגן", "context": "Noun meaning a mess, chaos or disorder", "category": "common Hebrew idioms and expressions"}
+{"term": "חרטה", "context": "Slang noun meaning nonsense or a botched mess, as in 'what a חרטה'", "category": "common Hebrew idioms and expressions"}
+{"term": "חבר'ה", "context": "Noun meaning 'guys' or 'folks', a friendly collective address", "category": "common Hebrew idioms and expressions"}
+{"term": "פרייר", "context": "Noun meaning a sucker or someone who gets taken advantage of", "category": "common Hebrew idioms and expressions"}
+{"term": "צדיק", "context": "Literally 'righteous person'; used ironically for a goody-goody or a good-hearted fellow", "category": "common Hebrew idioms and expressions"}
+{"term": "מטורף", "context": "Adjective meaning crazy, used admiringly for something amazing or wild", "category": "common Hebrew idioms and expressions"}
+{"term": "מגניב", "context": "Adjective meaning cool or awesome", "category": "common Hebrew idioms and expressions"}
+{"term": "פרווה", "context": "Adjective, literally 'neutral' in kosher terms; means bland or not taking a side", "category": "common Hebrew idioms and expressions"}
+{"term": "שכונה", "context": "neighbourhood, a residential area of a city", "category": "the neighbourhood, community and city life"}
+{"term": "שכן", "context": "neighbour, someone who lives next door", "category": "the neighbourhood, community and city life"}
+{"term": "ועד שכונה", "context": "neighbourhood committee representing local residents", "category": "the neighbourhood, community and city life"}
+{"term": "ראש עיר", "context": "mayor", "category": "the neighbourhood, community and city life"}
+{"term": "תושב", "context": "resident, someone who lives in a locality", "category": "the neighbourhood, community and city life"}
+{"term": "קהילה", "context": "community, a group of people sharing a place or identity", "category": "the neighbourhood, community and city life"}
+{"term": "מרכז קהילתי", "context": "community centre offering classes and activities", "category": "the neighbourhood, community and city life"}
+{"term": "שכונתי", "context": "neighbourhood-based, local, e.g. a local corner shop", "category": "the neighbourhood, community and city life"}
+{"term": "רחוב", "context": "street", "category": "the neighbourhood, community and city life"}
+{"term": "שדרה", "context": "boulevard, a wide tree-lined avenue", "category": "the neighbourhood, community and city life"}
+{"term": "תחבורה ציבורית", "context": "public transportation such as buses and trains", "category": "the neighbourhood, community and city life"}
+{"term": "תחנת אוטובוס", "context": "bus stop", "category": "the neighbourhood, community and city life"}
+{"term": "כחול לבן", "context": "blue-and-white kerb marking for paid parking zones in Israeli cities", "category": "the neighbourhood, community and city life"}
+{"term": "גינה ציבורית", "context": "public garden or park in the neighbourhood", "category": "the neighbourhood, community and city life"}
+{"term": "גן שעשועים", "context": "playground for children", "category": "the neighbourhood, community and city life"}
+{"term": "פינוי אשפה", "context": "municipal rubbish collection", "category": "the neighbourhood, community and city life"}
+{"term": "ארנונה", "context": "municipal property tax paid to the city", "category": "the neighbourhood, community and city life"}
+{"term": "רישיון עסק", "context": "business licence issued by the municipality", "category": "the neighbourhood, community and city life"}
+{"term": "דירה", "context": "apartment, flat", "category": "the neighbourhood, community and city life"}
+{"term": "בניין", "context": "building, apartment block", "category": "the neighbourhood, community and city life"}
+{"term": "חדר מדרגות", "context": "stairwell shared by residents of a building", "category": "the neighbourhood, community and city life"}
+{"term": "שכירות", "context": "rent, renting a home", "category": "the neighbourhood, community and city life"}
+{"term": "משכיר", "context": "landlord, the person who rents out a property", "category": "the neighbourhood, community and city life"}
+{"term": "שוכר", "context": "tenant, the person renting a home", "category": "the neighbourhood, community and city life"}
+{"term": "לשכור", "context": "to rent an apartment", "category": "the neighbourhood, community and city life"}
+{"term": "להתפנות", "context": "to be evacuated, or to free up, e.g. a parking spot", "category": "the neighbourhood, community and city life"}
+{"term": "להתארגן", "context": "to organise, e.g. residents organising a local initiative", "category": "the neighbourhood, community and city life"}
+{"term": "להתנדב", "context": "to volunteer in the community", "category": "the neighbourhood, community and city life"}
+{"term": "הפגנה", "context": "demonstration, public protest", "category": "the neighbourhood, community and city life"}
+{"term": "עצומה", "context": "petition signed by residents", "category": "the neighbourhood, community and city life"}
+{"term": "רעש", "context": "noise, e.g. a complaint about a noisy neighbour", "category": "the neighbourhood, community and city life"}
+{"term": "שקט", "context": "quiet, peaceful, e.g. a quiet street", "category": "the neighbourhood, community and city life"}
+{"term": "ביטחוני", "context": "security-related, e.g. security guard or shelter", "category": "the neighbourhood, community and city life"}
+{"term": "מתנ\"ס", "context": "community centre (matnas) offering local activities", "category": "the neighbourhood, community and city life"}
+{"term": "לשכון", "context": "to dwell, to reside in a place", "category": "the neighbourhood, community and city life"}

@@ -1,6 +1,6 @@
 # Training plan (proposed)
 
-Status 2026-11-18: proposal only. Nothing has been generated, trained or spent. Base-model candidates are in
+Status 2026-11-18: pilot data and pipeline smoke test done (see Progress at the end); bulk data awaiting approval. Base-model candidates are in
 [`base-model-candidates.md`](base-model-candidates.md).
 
 The template is the English sibling, `~/repos/github/ai-models/Term-Context-Sentence-Generator`
@@ -136,4 +136,35 @@ is "natural".
 When the model passes evaluation, publish it under Hebrish. The code is already in the GitHub org `Hebrish-ASR`
 (`Hebrish-ASR/Hebrew-Gendered-Sentence-Creator`). The weights and dataset go public on Hugging Face under the
 Hebrish account; its exact HF org name has not been checked yet. Until then, runs push privately to
-`danielrosehill/`, as in the English sibling. The release licence is MIT (Daniel, 2026-11-18); see the README's Licence section.
+`danielrosehill/`, as in the English sibling. Code is MIT; weights follow the base model (see the README's Licence section).
+
+## Progress
+
+### 2026-11-18: writer pilot, analyser, Gemma 4 smoke test
+
+- **Writer pilot** (`scripts/gen_sentences.py`, `data/pilot/`): Claude Sonnet 5.5, 10 terms x m/f x n=10, native
+  per-gender prompt. With adaptive thinking on, output tokens doubled and the prompt's example word (עייף) was
+  parroted, so the first 7 calls were discarded (`sonnet-5-5-v0-prompt.jsonl`). Thinking is turned off with
+  `thinking={"type": "between_tools"}`, because this model rejects `{"type": "disabled"}`. Final: 20 calls,
+  8,320 tokens in and 8,967 out, about US$0.11 sync.
+- **Gate** (`scripts/gate.py`): 196/200 pass after allowing the article on a multi-word term's last word
+  (ראיון העבודה). Rejections were inflected forms (ראיונות, לחוץ).
+- **Analyser** (`scripts/analyse_modal.py`, dictabert-joint on a Modal T4): the first version flagged 42
+  "disagreements". All of them were tagger artefacts: first-person past/future verbs (קיבלתי) and pronouns
+  (אני) tagged with a gender although their letters carry none, and vowel-only ל"ה forms (רוצה, מרוצה, מנסה).
+  Those are now skipped. Result: m 69 agree / 2 disagree / 29 unmarked; f 62 / 7 / 31. All 9 remaining
+  disagreements are vowel-only forms, fixed by the ה-lemma rule since. **The writer made no real gender
+  errors in 200 sentences.** About 30% of sentences have no letter-marked first-person form.
+- **Terms** (`scripts/gen_terms.py`): 20 categories x ~50 from Sonnet 5.5, giving 1,018 raw and 924 unique
+  new terms in `data/terms/terms.jsonl`. About US$0.30.
+- **Gemma 4 smoke test** (`scripts/train_modal.py --run gemma-smoke`, 64 examples, 4 steps, L40S):
+  - The checkpoint loads as `Gemma4ForConditionalGeneration` with transformers 5.23.0. LoRA on the language
+    model only gives 69.8M trainable parameters (0.87%).
+  - Batch-16 logits ran out of memory (262k vocabulary), so training uses micro-batches of 4 with gradient
+    accumulation.
+  - About 2.75 s per step.
+  - After only 4 steps the output is valid JSON with mostly correct gender, but the Hebrew has errors
+    (הראיון עבודה, האשת חברתי) and there was one m/f slip (אני צריכה in an m batch).
+  - The turn-end token is `<turn|>` (the smoke run appended `<eos>`; fixed).
+- Pricing note: the English sibling's logged batch run implies Sonnet 5.5 at US$1/US$5 per M tokens in
+  batch, so US$2/US$10 sync.
