@@ -6,6 +6,10 @@ This model writes natural Hebrew sentences that use a given term in the sense it
 
 Status (2026-11-18): planning. No data and no weights yet.
 
+**Scope:** Hebrew only. Terms go in in Hebrew script and sentences come out in Hebrew. There is no romanised Hebrish anywhere.
+
+**Example use case: Hebrew podcast generation for TTS.** A script has a male and a female character. Each character's lines must already be spelled for that character's gender before the text reaches TTS. A voice can't turn הלכתי עייף into הלכתי עייפה. The gender input is a deterministic switch that guarantees this: `m` for one character, `f` for the other.
+
 ## The pipeline: why two models
 
 Hebrew marks the speaker's gender in two different ways, and they need different tools.
@@ -45,7 +49,7 @@ The same chat format as Contextual-Sentence-Creator, with Hebrew output and a `s
 {"term": "גמ\"ח", "context": "a free community lending fund", "n": 3, "speaker_gender": "f"}
 ```
 
-The reply is a JSON array of `n` unpointed Hebrew sentences, each 6 to 18 words, each a statement in the first person where the term allows it. `speaker_gender` is `m`, `f` or `none` (no first-person gendered forms).
+The reply is a JSON array of `n` unpointed Hebrew sentences, each 6 to 18 words, each a statement in the first person where the term allows it. `speaker_gender` is required and is `m` or `f`; there is no neutral setting.
 
 **What is conditioned:** the gender of the sentence's first person, the "I" (אני, or a first-person verb with no pronoun). That "I" is normally the speaker, which is where the field name comes from. Only first-person forms follow the setting. Every other person in the sentence keeps whatever gender the content needs.
 

@@ -9,6 +9,19 @@ batch 16, 13,408 examples, one Modal L40S, 1,622 s, about US$1.10 per run (`docs
 there). Its first run learned the JSON format perfectly (309/309) but missed the gate on length and term count
 (95.7% of sentences vs Flash-Lite's 99.7%). Expect the same shape of problem here, plus Hebrew fluency and gender.
 
+## Scope (Daniel, 2026-11-18)
+
+- **Hebrew only.** Terms are written in Hebrew script, and output is Hebrew. No romanised Hebrish anywhere: not
+  as input, not in the data, not in the eval.
+- **Gender is a required, deterministic switch:** `m` or `f`, with no `none` and no default. Whoever calls the
+  model always knows who is speaking.
+
+Illustrative use case: **Hebrew podcast generation for TTS.** A script has a male and a female character. Each
+character's lines must already be in the right gender in the text, before the TTS stage, because no TTS voice can
+fix הלכתי עייף into הלכתי עייפה. The caller passes `m` for one character and `f` for the other, and gets lines
+whose first-person forms are spelled for that character. Stage 2 (Hebrew-Gendered-Nikud) then gets the
+vowel-only forms (רוֹצֶה / רוֹצָה) right for the TTS.
+
 ## Task contract
 
 **The core of the task:** gender-conditioned generation from the point of view of the sentence's first person,
@@ -30,7 +43,8 @@ Output: a JSON array of exactly `n` unpointed Hebrew strings, nothing else.
 - `speaker_gender` = `m` | `f`: at least one sentence in the batch (target: most) has a first-person form whose
   letters show the speaker's gender (past/future/present verbs and adjectives that differ in spelling:
   הולך/הולכת, שמח/שמחה, עייף/עייפה, מוכן/מוכנה). Every first-person form agrees with the speaker.
-- `speaker_gender` = `none`: no first-person form that shows gender in its letters.
+- A sentence whose first-person forms are all vowel-only (רוצה) or that has no gendered first-person form is
+  still valid under either setting, but it should be the minority in a batch.
 - Other people in the sentence keep whatever gender the content needs; the speaker setting never touches them.
 - Forms whose gender is only in the vowels (רוצה, קונה, יפה) are allowed under any setting: stage 2
   (Hebrew-Gendered-Nikud) resolves them.
@@ -54,12 +68,11 @@ Output: a JSON array of exactly `n` unpointed Hebrew strings, nothing else.
 
 Distil from a strong LLM, then filter hard. Target ~15k training examples (the English run used 13.4k).
 
-1. **Terms.** Hebrew-script terms with a short English context line. Sources to check: the Hebrish term list
-   (`Hebrew-Latin-Token-Classifier/data/terms.csv`, Hebrew spellings), the English sibling's contexts
-   (`Term-Context-Sentence-Generator/data/contexts.jsonl`, reusable where the term is Hebrew), and a general
-   Hebrew frequency list for common words. Mix of nouns, verbs, adjectives, expressions, names, places.
+1. **Terms.** Hebrew-script terms only, each with a short context line. Sources to check: a general Hebrew
+   frequency list, and Hebrew vocabulary lists (nouns, verbs, adjectives, expressions, names, places). No
+   romanised terms; the English sibling's romanised term list is not a source.
 2. **Generation, as pairs.** One call per term returns k sentence pairs: a male-speaker sentence and its
-   female-speaker twin that differs only in the speaker's own forms. Plus a separate `none` batch per term.
+   female-speaker twin that differs only in the forms of the first person.
    Writer: pick by a small comparison (Claude Sonnet 5.5 vs Gemini 3.1 Pro / Flash on ~10 terms each,
    Daniel rates Hebrew naturalness). Cost estimate goes to Daniel before the bulk run.
 3. **Automatic checks** (each rejection reason logged):
@@ -67,14 +80,13 @@ Distil from a strong LLM, then filter hard. Target ~15k training examples (the E
    - **pair diff:** align m and f word by word; every differing token must be a first-person form of the
      speaker (analyser says person=1 or subject is אני / implied first person, gender m vs f). A difference
      anywhere else (אשתי → בעלי, third-party verbs) rejects the pair: this is the MORPHOGEN flip;
-   - `m` and `f` sentences each contain at least one letter-marked speaker form (else they are reclassified
-     as `none` candidates, not discarded);
-   - `none` sentences contain no letter-marked first-person gendered form;
+   - most pairs contain at least one letter-marked first-person form (identical twins are kept only as a
+     small share of gender-neutral examples, so the model learns it need not force a form into every sentence);
    - duplicate and overused-opening filter, as in the English pipeline.
    Analyser: `dicta-il/dictabert-joint` (or `dictabert-morph`) for person/gender/number per token. It is a
    BERT-base-sized model; run it on Modal for the bulk pass, not on the laptop.
 4. **Examples.** Group by term. Each example samples n from 1 to min(available, 10) with a random order.
-   Gender balance m:f:none about 40:40:20. Both twins of a pair may appear, in different examples, so the
+   Gender balance m:f 50:50. Both twins of a pair may appear, in different examples, so the
    model sees minimal contrasts.
 5. **Split by term:** ~300 held-out terms, stratified by part of speech. Plus a fixed bench of 8 to 10 terms
    used in every comparison.
@@ -103,7 +115,7 @@ ceiling) and a cheap hosted model zero-shot (the price to beat):
 
 1. **Format:** JSON parses, exactly n, gate pass rate, share of calls with all n passing.
 2. **Speaker agreement:** share of `m`/`f` sentences whose speaker forms all match the requested gender
-   (analyser), and share with at least one letter-marked speaker form; for `none`, share with none.
+   (analyser), and share with at least one letter-marked speaker form.
 3. **No third-party flips:** generate the same term with m and f at a fixed seed; flag gendered forms of
    non-speakers that differ between the two. Also an analyser count of third-person forms whose gender
    matches the speaker more often than chance.
@@ -123,6 +135,4 @@ Hebrish account; its exact HF org name has not been checked yet. Until then, run
 
 ## Open questions for Daniel
 
-- Hebrew-script terms only, or also Hebrish romanised input (the English sibling's term format)?
-- Should `none` exist as an input, or is "no gendered speaker form" just a sentence type the model may write?
 - Licence follows the base model; Apache-2.0 bases keep the options widest.
