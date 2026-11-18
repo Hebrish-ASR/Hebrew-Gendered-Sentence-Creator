@@ -1,10 +1,10 @@
 # Hebrew-Gendered-Sentence-Creator
 
-![Status: planning](https://img.shields.io/badge/status-planning-blue) ![Stage: 1 of 2](https://img.shields.io/badge/pipeline-stage%201%20of%202-informational)
+![Status: viability proven](https://img.shields.io/badge/status-viability%20proven-green) ![Stage: 1 of 2](https://img.shields.io/badge/pipeline-stage%201%20of%202-informational)
 
 This model writes natural Hebrew sentences that use a given term in the sense its context describes, **for a speaker of a given gender**. It is the Hebrew counterpart of [`danielrosehill/Contextual-Sentence-Creator`](https://huggingface.co/danielrosehill/Contextual-Sentence-Creator), which does the same in English: a LoRA on `ibm-granite/granite-4.2-3b`, trained on `danielrosehill/term-context-sentences`.
 
-Status (2026-11-18): planning. No data and no weights yet.
+Status (2026-11-18): **viability proven; fine-tune paused.** Prompting alone gives 0 first-person gender errors in 200 sentences, both for Gemma 4 E4B (no training) and for Claude Sonnet 5.5. The working design is the writer prompt (`scripts/gen_sentences.py`) plus the analyser check (`scripts/analyse_modal.py`) that rejects any wrong-gender sentence. The LoRA pipeline (`scripts/train_modal.py`) is built and smoke-tested, to be used only if a small model's Hebrew needs to be more natural. Details: [`docs/training-plan.md`](docs/training-plan.md#2026-11-18-does-prompting-alone-do-it-yes).
 
 **Scope:** Hebrew only. Terms go in in Hebrew script and sentences come out in Hebrew. There is no romanised Hebrish anywhere.
 

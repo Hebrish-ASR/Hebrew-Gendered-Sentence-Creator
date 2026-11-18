@@ -1,6 +1,6 @@
 # Training plan (proposed)
 
-Status 2026-11-18: pilot data and pipeline smoke test done (see Progress at the end); bulk data awaiting approval. Base-model candidates are in
+Status 2026-11-18: **paused at viability (Daniel's call).** Prompting alone already conditions gender correctly, even on Gemma 4 E4B. See Progress at the end. The bulk data run (about US$6.50) was not run. Base-model candidates are in
 [`base-model-candidates.md`](base-model-candidates.md).
 
 The template is the English sibling, `~/repos/github/ai-models/Term-Context-Sentence-Generator`
@@ -168,3 +168,33 @@ Hebrish account; its exact HF org name has not been checked yet. Until then, run
   - The turn-end token is `<turn|>` (the smoke run appended `<eos>`; fixed).
 - Pricing note: the English sibling's logged batch run implies Sonnet 5.5 at US$1/US$5 per M tokens in
   batch, so US$2/US$10 sync.
+
+### 2026-11-18: does prompting alone do it? Yes
+
+Daniel asked whether a system prompt to Gemma could replace the fine-tune. Test:
+`scripts/train_modal.py --run gemma-4-e4b-zero-shot --zero-shot`, which uses `google/gemma-4-E4B-it` with no
+training and the writer's full prompt from `gen_sentences.py`, on the same 10 pilot terms x m/f x n=10. Output
+in `data/runs/gemma-4-e4b-zero-shot/`. Both runs were scored with the same gate and analyser (final rules).
+
+| | Gemma 4 E4B, prompt only | Claude Sonnet 5.5, prompt only |
+|---|---|---|
+| JSON parses, exactly n | 20/20 | 20/20 |
+| gate pass | 195/200 | 196/200 |
+| first-person gender **disagree** | **0** | **0** |
+| letter-marked first-person form present | 96/200 | 121/200 |
+
+Reading the Gemma output (Daniel's assistant, not Daniel): the gender is right throughout. The Hebrew is
+mostly correct but plainer, many sentences open with "אני", and there are occasional errors: אני נסה,
+מרגיש לי לחץ, ממלא את המילואים, המורכבות ביותר.
+
+**Conclusion.** Gender conditioning does not need a fine-tune, because a prompt does it, even on a 4B-effective
+model. A fine-tune makes no model deterministic. The guarantee comes from the analyser check, which rejects
+and retries any sentence with a wrong-gender letter-marked first-person form, and that wraps any model. The
+LoRA would only buy Hebrew fluency and variety in a small local model, by distilling from Sonnet. Resume the
+bulk run (planned above: 924 terms, Sonnet batch about US$4.90, analyser about US$0.10, E4B LoRA about
+US$1.50) only if that need comes up.
+
+Spend for the whole investigation:
+- Anthropic: about US$0.52 (pilot v0 + v1 + terms, sync).
+- Modal: two smoke runs, one zero-shot run and three analyser runs, roughly US$0.50 (estimated, not read
+  from the bill).

@@ -32,8 +32,8 @@ MICRO = 4
 LORA_TARGETS = r".*language_model.*\.(q_proj|k_proj|v_proj|o_proj|gate_proj|up_proj|down_proj)"
 
 
-def prompt(tok, user):
-    msgs = [{"role": "system", "content": SYSTEM}, {"role": "user", "content": user}]
+def prompt(tok, user, system=None):
+    msgs = [{"role": "system", "content": system or SYSTEM}, {"role": "user", "content": user}]
     try:
         return tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True, enable_thinking=False)
     except TypeError:
@@ -41,7 +41,8 @@ def prompt(tok, user):
 
 
 @app.function(gpu="L40S", timeout=4 * 3600, secrets=[hf], env={"PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"})
-def train(base: str, run: str, epochs: float, lr: float, rank: int, eval_n: int, limit_train: int, limit_eval: int, push: bool):
+def train(base: str, run: str, epochs: float, lr: float, rank: int, eval_n: int, limit_train: int, limit_eval: int, push: bool,
+          eval_system: str = ""):
     import math, random, time
     import torch
     from peft import LoraConfig, get_peft_model
@@ -71,6 +72,8 @@ def train(base: str, run: str, epochs: float, lr: float, rank: int, eval_n: int,
     print(prompt(tok, json.loads(lines[0])["messages"][1]["content"]), flush=True)
     bs, log = 16, []
     steps = math.ceil(len(data) / bs * epochs)
+    if steps == 0:
+        log = []
     opt = torch.optim.AdamW([p for p in model.parameters() if p.requires_grad], lr=lr, weight_decay=0.0)
     sched = get_cosine_schedule_with_warmup(opt, int(0.03 * steps), steps)
     model.train()
@@ -111,7 +114,7 @@ def train(base: str, run: str, epochs: float, lr: float, rank: int, eval_n: int,
         b = jobs[k:k + 8]
         users = [json.dumps({"term": r["term"], "context": r["context"], "n": eval_n, "speaker_gender": g},
                             ensure_ascii=False) for r, g in b]
-        enc = tok([prompt(tok, u) for u in users], return_tensors="pt", padding=True, add_special_tokens=False).to("cuda")
+        enc = tok([prompt(tok, u, eval_system or None) for u in users], return_tensors="pt", padding=True, add_special_tokens=False).to("cuda")
         with torch.no_grad():
             o = model.generate(**enc, max_new_tokens=80 * eval_n + 40, do_sample=True, temperature=0.8, top_p=0.95,
                                pad_token_id=tok.pad_token_id)
@@ -132,8 +135,16 @@ def train(base: str, run: str, epochs: float, lr: float, rank: int, eval_n: int,
 @app.local_entrypoint()
 def main(base: str = "google/gemma-4-E4B-it", run: str = "gemma-4-e4b-v1", epochs: float = 2.0,
          lr: float = 2e-4, rank: int = 32, eval_n: int = 10, limit_train: int = 0, limit_eval: int = 0,
-         push: bool = True):
-    info, outs = train.remote(base, run, epochs, lr, rank, eval_n, limit_train, limit_eval, push)
+         push: bool = True, zero_shot: bool = False):
+    # --zero-shot: no training (epochs 0, the untouched LoRA is a no-op), eval with the writer's full prompt,
+    # to test whether prompting alone does the job
+    eval_system = ""
+    if zero_shot:
+        import sys; sys.path.insert(0, str(ROOT / "scripts"))
+        from gen_sentences import SYSTEM as WRITER
+        eval_system, epochs, push = WRITER.format(n=eval_n, who='man if speaker_gender is "m", or a woman if it is "f"'), 0.0, False
+    info, outs = train.remote(base, run, epochs, lr, rank, eval_n, limit_train, limit_eval, push, eval_system)
+    info["eval_system"] = eval_system
     d = ROOT / "data" / "runs" / run
     d.mkdir(parents=True, exist_ok=True)
     (d / "train.json").write_text(json.dumps(info, indent=1))
