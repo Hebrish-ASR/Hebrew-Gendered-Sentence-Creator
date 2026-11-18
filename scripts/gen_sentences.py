@@ -18,7 +18,7 @@ SYSTEM = """You write natural, everyday modern Hebrew sentences for a training d
 
 Rules:
 - Write exactly {n} different sentences. Each is 6 to 18 words.
-- Each sentence uses the term exactly once, spelled as given (a prefix letter such as ו, ה, ב, ל, מ, ש, כ may be attached), in the meaning the context describes.
+- Each sentence uses the term exactly once, in the meaning the context describes. A prefix letter such as ו, ה, ב, ל, מ, ש, כ may be attached, and when the term describes the "I" it is inflected to agree with them (מדוכא → מדוכאה, אסיר תודה → אסירת תודה).
 - The sentences are in the first person. The "I" of every sentence is a {who}. Write every first-person form natively for a {who}: present-tense verbs, adjectives and participles that describe the "I", and any other form whose spelling depends on the gender of the "I".
 - Only the "I" follows this rule. Other people in a sentence (you, he, she, my partner, my boss, my friend, my children) have whatever gender is natural; vary them and do not make them match the "I".
 - Most sentences should contain at least one form whose spelling shows the gender of the "I". Do not force one where it would be unnatural.

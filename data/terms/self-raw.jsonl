@@ -1,0 +1,270 @@
+{"category": "feelings and moods (adjectives)", "term": "עייף", "context": "tired, sleepy after a long day", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "שמח", "context": "happy, glad", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "עצוב", "context": "sad, down", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "כועס", "context": "angry, mad at someone", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מאוכזב", "context": "disappointed, let down", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מתוסכל", "context": "frustrated, fed up with things not working out", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "לחוץ", "context": "stressed, under pressure", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "רגוע", "context": "calm, relaxed", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מבולבל", "context": "confused, mixed up", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מופתע", "context": "surprised, taken aback", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "נרגש", "context": "excited, emotionally moved", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מרוצה", "context": "satisfied, pleased with how things turned out", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "גאה", "context": "proud of someone or something", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מובך", "context": "embarrassed, awkward", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מבויש", "context": "ashamed, shamefaced", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "קנאי", "context": "jealous, envious", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "עצבני", "context": "irritable, on edge, nervous", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מפוחד", "context": "frightened, scared", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "חרד", "context": "anxious, worried about what is coming", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מודאג", "context": "worried, concerned", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "בודד", "context": "lonely, alone", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "משועמם", "context": "bored, with nothing to do", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מאוהב", "context": "in love, smitten", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "אסיר תודה", "context": "grateful, thankful", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "סקרן", "context": "curious, wanting to know more", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מעוצבן", "context": "annoyed, ticked off (colloquial)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מסוקרן", "context": "intrigued, curious about something specific", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מתרגש", "context": "getting excited, emotional before an event", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מצוברח", "context": "in a bad mood, down (slang)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מבואס", "context": "bummed out, disappointed (slang)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מרוגש", "context": "moved, stirred up with emotion", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מאושר", "context": "very happy, blissful", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "אומלל", "context": "miserable, wretched", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מדוכא", "context": "depressed, low-spirited", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "שבע רצון", "context": "content, satisfied", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "נבוך", "context": "embarrassed, at a loss", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מתוח", "context": "tense, uptight", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "חסר סבלנות", "context": "impatient, can't wait", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "אדיש", "context": "indifferent, apathetic", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "נינוח", "context": "at ease, laid-back", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מאוכזב מעצמי", "context": "disappointed in myself (as a standing adjective phrase: מאוכזב)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "חסר אונים", "context": "helpless, powerless", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מרוסק", "context": "devastated, shattered, wiped out", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "שבור", "context": "broken, emotionally crushed", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "מדוכדך", "context": "downcast, gloomy", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "feelings and moods (adjectives)", "term": "סחוט", "context": "drained, wrung out (emotionally or physically)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "ביישן", "context": "shy, reserved around new people", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "חברותי", "context": "sociable, enjoys being with people", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "אופטימי", "context": "optimistic, expects good outcomes", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "פסימי", "context": "pessimistic, expects the worst", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "סקרן", "context": "curious, eager to learn and find out", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "עצלן", "context": "lazy, avoids effort", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "חרוץ", "context": "hardworking, diligent", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "סבלן", "context": "patient, able to wait calmly", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "חסר סבלנות", "context": "impatient, gets restless quickly", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "עקשן", "context": "stubborn, doesn't give in", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "אחראי", "context": "responsible, can be relied on", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "אנוכי", "context": "selfish, thinks mainly of oneself", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "נדיב", "context": "generous, gives freely", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "קמצן", "context": "stingy, hates spending money", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "רגיש", "context": "sensitive, easily affected emotionally", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "חם", "context": "warm, affectionate in manner", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "קר רוח", "context": "cool-headed, calm under pressure", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "עצבני", "context": "irritable, nervous, on edge", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "רגוע", "context": "calm, relaxed by nature", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "מבולגן", "context": "messy, disorganized", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "מסודר", "context": "tidy, organized", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "פרפקציוניסט", "context": "perfectionist, demands flawless results", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "יצירתי", "context": "creative, full of original ideas", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "ישיר", "context": "direct, says things straight", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "כנה", "context": "honest, sincere", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "צנוע", "context": "modest, humble", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "שקט", "context": "quiet, soft-spoken", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "מצחיק", "context": "funny, makes people laugh", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "רציני", "context": "serious, not given to joking", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "ספונטני", "context": "spontaneous, acts on impulse", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "אמביציוזי", "context": "ambitious, driven to succeed", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "חולמני", "context": "dreamy, often lost in thought", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "מופנם", "context": "introverted, inward-looking", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "מוחצן", "context": "extroverted, outgoing", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "חכם", "context": "smart, wise", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "נחמד", "context": "nice, pleasant to others", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "עדין", "context": "gentle, delicate in manner", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "אמיץ", "context": "brave, courageous", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "פחדן", "context": "cowardly, easily scared", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "קנאי", "context": "jealous, envious", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "חשדן", "context": "suspicious, distrustful", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "דאגן", "context": "a worrier, always concerned", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "נאמן", "context": "loyal, faithful to people", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "גאוותן", "context": "arrogant, full of pride", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "מתבייש", "context": "embarrassed, self-conscious (describing own tendency)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "personality traits (adjectives)", "term": "שמח", "context": "cheerful, happy by disposition", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "עייף", "context": "tired, exhausted after a long day", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "רעב", "context": "hungry, in need of food", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "צמא", "context": "thirsty, wanting to drink", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "חולה", "context": "sick, ill (fem. חולה is spelled the same, so see חולה alt: מצונן)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מצונן", "context": "having a cold, sniffly", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "ער", "context": "awake, not sleeping", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "ישן", "context": "asleep, sleeping right now", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מנומנם", "context": "drowsy, groggy, half-asleep", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מותש", "context": "worn out, drained of energy", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "תשוש", "context": "weak and exhausted, spent", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "רעבתן", "context": "ravenous, always hungry, glutton", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "שבע", "context": "full, satisfied after eating", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "חלש", "context": "weak, lacking strength", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "חזק", "context": "strong, feeling physically strong", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מסוחרר", "context": "dizzy, head spinning", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מבחיל", "context": "nauseating (rare as self-description, see מקיא)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מקיא", "context": "vomiting, throwing up", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "משתעל", "context": "coughing, having a cough", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מתעטש", "context": "sneezing repeatedly", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מזיע", "context": "sweating, perspiring", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "רועד", "context": "shaking, trembling from cold or fear", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "קופא", "context": "freezing, very cold", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מתפוצץ", "context": "bursting, stuffed from too much food", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "סחוט", "context": "wrung out, completely drained", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "שבור", "context": "broken, beat, wiped out physically", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "גמור", "context": "dead tired, finished, shot", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מת מעייפות", "context": "dead tired, dying of exhaustion", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מת מרעב", "context": "starving, dying of hunger", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מת מצמא", "context": "parched, dying of thirst", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "חולה", "context": "ill, unwell (written form kept for completeness; fem. differs only by ending in some orthographies)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "פצוע", "context": "injured, wounded", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "כואב לי", "context": "hurting, in pain (see סובל)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "סובל", "context": "suffering, in pain", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מסונוור", "context": "dazzled, blinded by bright light", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מצונן", "context": "stuffed up with a cold", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "משותק", "context": "paralyzed, unable to move", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מוטרד", "context": "uneasy, troubled in the stomach or mind", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מעולף", "context": "faint, about to pass out", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מתעורר", "context": "waking up, just now becoming awake", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מתנמנם", "context": "dozing off, nodding off", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "נרדם", "context": "falling asleep, dropping off", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "עירני", "context": "alert, wide awake and sharp", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "ער לגמרי", "context": "wide awake, fully awake", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "רענן", "context": "refreshed, feeling fresh", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "נח", "context": "rested, relaxing", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "חרוך מרעב", "context": "famished, starving (colloquial)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "physical states: tired, hungry, sick, awake (adjectives and participles)", "term": "מצונן קשות", "context": "badly congested with a cold", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "שוכר", "context": "renter, tenant of an apartment", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "משכיר", "context": "landlord, someone who rents out property", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מתנדב", "context": "volunteer", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "עולה חדש", "context": "new immigrant to Israel (olim)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "פנסיונר", "context": "retiree, pensioner", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "גמלאי", "context": "retiree, senior on a pension (feminine גמלאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "תושב", "context": "resident of a town or country", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "תושב חוזר", "context": "returning resident, Israeli who came back from abroad", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "אזרח", "context": "citizen", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "אזרח ותיק", "context": "senior citizen", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "ותיק", "context": "veteran, long-time resident or member", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "חייל", "context": "soldier", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "משוחרר", "context": "discharged soldier, recently released from army service", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מילואימניק", "context": "reservist", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "סטודנט", "context": "university student", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "תלמיד", "context": "pupil, school student", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מתמחה", "context": "intern, trainee in a profession", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מתלמד", "context": "apprentice, trainee", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "עובד", "context": "employee, worker", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מובטל", "context": "unemployed person", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "עצמאי", "context": "self-employed person (feminine עצמאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "קבלן", "context": "contractor, freelance worker", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מנהל", "context": "manager, director", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "בעל בית", "context": "homeowner, landlord", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "בעל עסק", "context": "business owner", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "שותף", "context": "partner, roommate or business partner", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "שותף לדירה", "context": "roommate, flatmate", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "שכן", "context": "neighbor", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "אורח", "context": "guest", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מארח", "context": "host", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "חבר", "context": "member of an organization, or friend", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מנוי", "context": "subscriber, member of a gym or service", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "לקוח", "context": "customer, client", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מטופל", "context": "patient, person receiving treatment", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "נבחר", "context": "elected official", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מתמודד", "context": "candidate, contestant", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "פעיל", "context": "activist, active member", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "יזם", "context": "entrepreneur", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "משקיע", "context": "investor", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "נהג", "context": "driver", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "שליח", "context": "delivery person, courier, emissary", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מתגורר", "context": "resident, someone living in a place", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "עולה", "context": "immigrant to Israel (oleh)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "תייר", "context": "tourist", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מהגר", "context": "immigrant, migrant", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "פליט", "context": "refugee", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מורה", "context": "teacher (feminine מורה, same spelling, skip) — alternative: מלמד, private tutor", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "social roles and statuses: renter, volunteer, newcomer, retiree (agent nouns)", "term": "מדריך", "context": "instructor, guide, youth counselor", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מורה", "context": "teacher (feminine form is מורה too, so skip)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "רופא", "context": "physician, medical doctor (fem. רופאה)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מהנדס", "context": "engineer (fem. מהנדסת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "עורך דין", "context": "lawyer, attorney (fem. עורכת דין)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "אחות", "context": "placeholder", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מתכנת", "context": "computer programmer (fem. מתכנתת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "נהג", "context": "driver (fem. נהגת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מזכיר", "context": "secretary (fem. מזכירה)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "רואה חשבון", "context": "accountant, CPA (fem. רואת חשבון)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "פקיד", "context": "clerk, office worker (fem. פקידה)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מוכר", "context": "salesperson, shop seller (fem. מוכרת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מלצר", "context": "waiter (fem. מלצרית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "טבח", "context": "cook, chef (fem. טבחית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "שף", "context": "chef (fem. שפית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "אופה", "context": "baker (fem. אופה is same, so skip)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "חייל", "context": "soldier (fem. חיילת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "שוטר", "context": "police officer (fem. שוטרת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "כבאי", "context": "firefighter (fem. כבאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "חשמלאי", "context": "electrician (fem. חשמלאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "אינסטלטור", "context": "plumber (fem. אינסטלטורית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "נגר", "context": "carpenter (fem. נגרית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "צבע", "context": "house painter (fem. צבעית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מנהל", "context": "manager, director (fem. מנהלת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "סטודנט", "context": "student (fem. סטודנטית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "חקלאי", "context": "farmer (fem. חקלאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "רוקח", "context": "pharmacist (fem. רוקחת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "פסיכולוג", "context": "psychologist (fem. פסיכולוגית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "עיתונאי", "context": "journalist (fem. עיתונאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "צלם", "context": "photographer (fem. צלמת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מעצב", "context": "designer (fem. מעצבת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "אדריכל", "context": "architect (fem. אדריכלית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "שחקן", "context": "actor (fem. שחקנית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "זמר", "context": "singer (fem. זמרת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "רקדן", "context": "dancer (fem. רקדנית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מוזיקאי", "context": "musician (fem. מוזיקאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "סופר", "context": "writer, author (fem. סופרת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מתרגם", "context": "translator (fem. מתרגמת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "ספר", "context": "hairdresser, barber (fem. ספרית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "קוסמטיקאי", "context": "cosmetician, beautician (fem. קוסמטיקאית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מאמן", "context": "coach, trainer (fem. מאמנת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "שרברב", "context": "plumber, handyman (fem. שרברבית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "פועל", "context": "laborer, worker (fem. פועלת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "קבלן", "context": "contractor (fem. קבלנית)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "סוכן", "context": "agent, e.g. insurance or travel agent (fem. סוכנת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "יועץ", "context": "consultant, adviser (fem. יועצת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "מנתח", "context": "surgeon (fem. מנתחת)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "רופא שיניים", "context": "dentist (fem. רופאת שיניים)", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "occupations and job titles", "term": "אחיין", "context": "placeholder", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "צמחוני", "context": "vegetarian; doesn't eat meat or fish", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "טבעוני", "context": "vegan; eats no animal products at all", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "דתי", "context": "religious; observes Jewish law in daily life", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "חילוני", "context": "secular; not religiously observant", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "חרדי", "context": "ultra-Orthodox; strictly observant Haredi Jew", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "מסורתי", "context": "traditional; keeps some customs without full observance", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "דתי לאומי", "context": "national-religious; religious Zionist", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "ספורטאי", "context": "athlete; someone who competes or trains in sports", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "רץ", "context": "runner; someone who runs regularly", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "שחיין", "context": "swimmer; someone who swims regularly or competitively", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "רוכב אופניים", "context": "cyclist; someone who rides a bike as a sport", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "כדורגלן", "context": "football (soccer) player", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "כדורסלן", "context": "basketball player", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "טניסאי", "context": "tennis player", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "מתעמל", "context": "gymnast; practices gymnastics", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "מתאגרף", "context": "boxer", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "אתלט", "context": "athlete in track and field or fitness", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "גולש", "context": "surfer or skier; glides on waves or snow", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "מטפס", "context": "climber; goes rock climbing or mountaineering", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "שחקן כדורעף", "context": "volleyball player", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "אוהד", "context": "sports fan; supporter of a team", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "מאמן", "context": "coach; trains athletes or a team", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "יוגי", "context": "yogi; practices yoga regularly", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "ספורטיבי", "context": "sporty; into sports and an active lifestyle", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "אקטיבי", "context": "active; leads an energetic lifestyle", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "בריא", "context": "health-conscious or healthy in lifestyle", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "אתאיסט", "context": "atheist; doesn't believe in God", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "מאמין", "context": "believer; has faith in God", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "שומר שבת", "context": "Shabbat observer; keeps the Sabbath", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "שומר מצוות", "context": "observant; keeps the commandments", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "שומר כשרות", "context": "keeps kosher; eats only kosher food", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "חוזר בתשובה", "context": "newly religious; returned to religious observance", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "חוזר בשאלה", "context": "left religion; formerly religious, now secular", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "ליברל", "context": "liberal in outlook and values", "model": "claude-sonnet-5-5", "date": "2026-11-18"}
+{"category": "lifestyle and identity: vegetarian, religious, secular, athlete", "term": "שמרן", "context": "conservative in values and lifestyle", "model": "claude-sonnet-5-5", "date": "2026-11-18"}

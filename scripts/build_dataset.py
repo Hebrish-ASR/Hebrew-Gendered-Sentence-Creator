@@ -23,6 +23,7 @@ def main():
     ap.add_argument("--eval-terms", type=int, default=300)
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--uses", type=float, default=2.0)
+    ap.add_argument("--eval-from", help="reuse the eval terms of this file (keeps v2/v3/v4 comparable)")
     a = ap.parse_args()
     rnd = random.Random(a.seed)
     groups, ctx, drop = collections.defaultdict(list), {}, collections.Counter()
@@ -35,7 +36,10 @@ def main():
                 if an["verdict"] == "disagree": drop["gender"] += 1; continue
                 groups[(r["term"], r["gender"])].append(s)
     terms = sorted(ctx); rnd.shuffle(terms)
-    ev_terms = set(terms[:a.eval_terms])
+    if a.eval_from:
+        ev_terms = {json.loads(l)["term"] for l in open(a.eval_from)}
+    else:
+        ev_terms = set(terms[:a.eval_terms])
     train = []
     for (term, g), sents in sorted(groups.items()):
         if term in ev_terms: continue

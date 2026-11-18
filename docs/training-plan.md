@@ -1,6 +1,6 @@
 # Training plan (proposed)
 
-Status 2026-11-18: **v2 trained** (`danielrosehill/hebrew-gendered-sentence-creator-gemma-4-e4b-v2`, private). It is better than prompt-only Gemma on format and fluency, but not on gender correctness, because of how the term is handled. See the last Progress entry. Base-model candidates are in
+Status 2026-11-18: **paused after v3 (Daniel).** v3 is no better than v2. Next step if resumed: the v4 targeted top-up described at the end. Earlier status: v2 trained (`danielrosehill/hebrew-gendered-sentence-creator-gemma-4-e4b-v2`, private). It is better than prompt-only Gemma on format and fluency, but not on gender correctness, because of how the term is handled. See the last Progress entry. Base-model candidates are in
 [`base-model-candidates.md`](base-model-candidates.md).
 
 The template is the English sibling, `~/repos/github/ai-models/Term-Context-Sentence-Generator`
@@ -257,3 +257,38 @@ the bill:
 - Modal: about US$5.30 (v1, v2 x2, zero-shot x2, smoke tests, analysers).
 - Total about US$10.80, against the US$6.50 approved. The overrun is the v1 gate bug (one retrain), the lost
   v2 client (one more retrain) and the like-for-like zero-shot baseline.
+
+### 2026-11-18: v3, and pause
+
+v3 used the same data as v2. The only change is that the system prompt (`scripts/system_prompt.py`) and the
+writer prompt now say the term may be inflected to agree with the "I". v3 is
+`danielrosehill/hebrew-gendered-sentence-creator-gemma-4-e4b-v3` (private): 861 steps, 1,935 s training,
+346 s eval. On the same 100 eval terms:
+
+| | prompt-only | v2 | v3 |
+|---|---|---|---|
+| unparseable | 6 | 1 | 3 |
+| female "I" disagree | 19 | 26 | 22 |
+| male "I" disagree | 2 | 0 | 2 |
+
+**v3 = v2 within noise.** 17 of v3's 22 female errors are the held-out term copied in the masculine (אסיר
+תודה x8, מדוכא x6, שוכר x5 and צמחוני; some sentences hold more than one). A prompt change does not reach
+this failure, because the model saw only 134 training examples of an inflected term.
+
+**v4 plan (paused by Daniel on 2026-11-18, not run):**
+1. `scripts/gen_terms.py --self` asks for about 300 self-description terms whose feminine form is spelled
+   differently: moods, traits, physical states, roles, occupations, identities, family status, attitudes.
+   The run was stopped part-way; partial output may be in `data/terms/self-raw.jsonl`.
+2. Generate m/f sentences for those terms with `gen_sentences.py --batch` (about US$1).
+3. Rebuild with `build_dataset.py --eval-from data/eval-terms-fixed.jsonl`, which keeps the same 100 eval
+   terms so v4 compares with v2 and v3; drop any new term that is an eval term.
+4. Retrain detached (about US$1.50) and score.
+
+Ship any version with a verified wrapper: generate, run the analyser, regenerate rejects.
+
+Workaround for callers today: pass the term already inflected for the speaker (מדוכאה for f).
+
+Not published: Hugging Face publishing (`scripts/publish_modal.py`, targets `Hebrish/Hebrew-Gendered-Sentence-Creator`
+and `Hebrish/Hebrew-Gendered-Sentences`; cards in `hf/` not yet written) waits for Daniel.
+
+Spend to date: about US$13.80 (Anthropic US$5.53, Modal about US$8.30 estimated from run times).
