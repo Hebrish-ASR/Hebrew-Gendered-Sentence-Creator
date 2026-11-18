@@ -1,7 +1,9 @@
 """LoRA SFT of Gemma 4 (text only) on data/train.jsonl, then generation on data/eval.jsonl.
 
-    MODAL_PROFILE=danielrosehill with-secrets modal run scripts/train_modal.py \
+    MODAL_PROFILE=danielrosehill with-secrets modal run --detach scripts/train_modal.py \
         --base google/gemma-4-E4B-it --run gemma-4-e4b-v1 [--epochs 2 --lr 2e-4 --rank 32]
+    fetch results (also works after the local client died; --detach keeps the app running without it):
+    MODAL_PROFILE=danielrosehill modal volume get hebrew-gendered-runs <run> data/runs/ --force
     smoke test: --run gemma-smoke --limit-train 200 --limit-eval 4 --epochs 1 --no-push
 
 Ported from Term-Context-Sentence-Generator/scripts/train_modal.py (2026-11-18). Differences: Gemma 4 is a
@@ -26,6 +28,9 @@ image = (
     .add_local_file(ROOT / "scripts/system_prompt.py", "/root/system_prompt.py")
 )
 app = modal.App("hebrew-gendered-sentence-creator-train", image=image)
+# Results land on this volume inside the GPU function, so nothing depends on the local client staying
+# connected (2026-11-18: the v2 run's client was killed by laptop memory pressure and its eval was lost).
+runs = modal.Volume.from_name("hebrew-gendered-runs", create_if_missing=True)
 hf = modal.Secret.from_dict({"HF_TOKEN": os.environ["HF_TOKEN"]} if modal.is_local() else {})
 from system_prompt import SYSTEM  # noqa: E402  (scripts/system_prompt.py, shared with build_dataset.py)
 MICRO = 4
@@ -40,7 +45,7 @@ def prompt(tok, user, system=None):
         return tok.apply_chat_template(msgs, tokenize=False, add_generation_prompt=True)
 
 
-@app.function(gpu="L40S", timeout=4 * 3600, secrets=[hf], env={"PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"})
+@app.function(gpu="L40S", timeout=4 * 3600, secrets=[hf], volumes={"/runs": runs}, env={"PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"})
 def train(base: str, run: str, epochs: float, lr: float, rank: int, eval_n: int, limit_train: int, limit_eval: int, push: bool,
           eval_system: str = ""):
     import math, random, time
@@ -128,8 +133,15 @@ def train(base: str, run: str, epochs: float, lr: float, rank: int, eval_n: int,
         model.push_to_hub(repo, private=True)
         tok.push_to_hub(repo, private=True)
         print("pushed", repo, flush=True)
-    return {"run": run, "base": base, "hf_repo": repo, "examples": len(data), "steps": steps, "epochs": epochs,
-            "lr": lr, "rank": rank, "train_s": round(train_s), "eval_gen_s": round(gen_s), "loss_log": log}, outs
+    info = {"run": run, "base": base, "hf_repo": repo, "examples": len(data), "steps": steps, "epochs": epochs,
+            "lr": lr, "rank": rank, "train_s": round(train_s), "eval_gen_s": round(gen_s), "loss_log": log,
+            "eval_system": eval_system}
+    os.makedirs(f"/runs/{run}", exist_ok=True)
+    with open(f"/runs/{run}/train.json", "w") as f: json.dump(info, f, indent=1)
+    with open(f"/runs/{run}/eval-outputs.jsonl", "w") as f:
+        for o in outs: f.write(json.dumps(o, ensure_ascii=False) + "\n")
+    runs.commit()
+    return info, outs
 
 
 @app.local_entrypoint()
@@ -144,7 +156,6 @@ def main(base: str = "google/gemma-4-E4B-it", run: str = "gemma-4-e4b-v1", epoch
         from gen_sentences import SYSTEM as WRITER
         eval_system, epochs, push = WRITER.format(n=eval_n, who='man if speaker_gender is "m", or a woman if it is "f"'), 0.0, False
     info, outs = train.remote(base, run, epochs, lr, rank, eval_n, limit_train, limit_eval, push, eval_system)
-    info["eval_system"] = eval_system
     d = ROOT / "data" / "runs" / run
     d.mkdir(parents=True, exist_ok=True)
     (d / "train.json").write_text(json.dumps(info, indent=1))

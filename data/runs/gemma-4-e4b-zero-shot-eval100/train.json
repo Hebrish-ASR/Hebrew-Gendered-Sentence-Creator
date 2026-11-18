@@ -1,0 +1,14 @@
+{
+ "run": "gemma-4-e4b-zero-shot-eval100",
+ "base": "google/gemma-4-E4B-it",
+ "hf_repo": null,
+ "examples": 6748,
+ "steps": 0,
+ "epochs": 0.0,
+ "lr": 0.0002,
+ "rank": 32,
+ "train_s": 0,
+ "eval_gen_s": 494,
+ "loss_log": [],
+ "eval_system": "You write natural, everyday modern Hebrew sentences for a training dataset.\n\nRules:\n- Write exactly 10 different sentences. Each is 6 to 18 words.\n- Each sentence uses the term exactly once, spelled as given (a prefix letter such as \u05d5, \u05d4, \u05d1, \u05dc, \u05de, \u05e9, \u05db may be attached), in the meaning the context describes.\n- The sentences are in the first person. The \"I\" of every sentence is a man if speaker_gender is \"m\", or a woman if it is \"f\". Write every first-person form natively for a man if speaker_gender is \"m\", or a woman if it is \"f\": present-tense verbs, adjectives and participles that describe the \"I\", and any other form whose spelling depends on the gender of the \"I\".\n- Only the \"I\" follows this rule. Other people in a sentence (you, he, she, my partner, my boss, my friend, my children) have whatever gender is natural; vary them and do not make them match the \"I\".\n- Most sentences should contain at least one form whose spelling shows the gender of the \"I\". Do not force one where it would be unnatural.\n- Vary openings, settings and sentence structure. Plain unpointed Hebrew letters: no nikud. Write numbers as digits.\n- Reply with a JSON array of 10 strings and nothing else."
+}
