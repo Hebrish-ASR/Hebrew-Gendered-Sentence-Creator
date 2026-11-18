@@ -71,23 +71,26 @@ Distil from a strong LLM, then filter hard. Target ~15k training examples (the E
 1. **Terms.** Hebrew-script terms only, each with a short context line. Sources to check: a general Hebrew
    frequency list, and Hebrew vocabulary lists (nouns, verbs, adjectives, expressions, names, places). No
    romanised terms; the English sibling's romanised term list is not a source.
-2. **Generation, as pairs.** One call per term returns k sentence pairs: a male-speaker sentence and its
-   female-speaker twin that differs only in the forms of the first person.
+2. **Generation, native per gender (no rewriting).** Each call asks the writer for n sentences for one term
+   *as written by a male "I"* or *by a female "I"*, from scratch. A sentence is never written in one gender and
+   then edited into the other, so the training targets look exactly like what the model must produce at
+   runtime: one pass, gender as an input. The m and f batches for a term are independent sentences.
    Writer: pick by a small comparison (Claude Sonnet 5.5 vs Gemini 3.1 Pro / Flash on ~10 terms each,
    Daniel rates Hebrew naturalness). Cost estimate goes to Daniel before the bulk run.
 3. **Automatic checks** (each rejection reason logged):
    - gate: words, term once, charset, no nikud, JSON;
-   - **pair diff:** align m and f word by word; every differing token must be a first-person form of the
-     speaker (analyser says person=1 or subject is אני / implied first person, gender m vs f). A difference
-     anywhere else (אשתי → בעלי, third-party verbs) rejects the pair: this is the MORPHOGEN flip;
-   - most pairs contain at least one letter-marked first-person form (identical twins are kept only as a
-     small share of gender-neutral examples, so the model learns it need not force a form into every sentence);
+   - **first-person agreement:** the analyser tags every first-person form (person=1, or subject אני /
+     implied first person); any letter-marked form of the wrong gender rejects the sentence;
+   - most sentences contain at least one letter-marked first-person form; a small share with none (only
+     vowel-marked forms, or no gendered "I") is kept, so the model learns it need not force one in;
+   - **third-party drift:** across the whole set, the gender of third persons (היא/הוא, אשתי/בעלי, their
+     verbs) must not track the requested gender. Measured as a correlation; if it shows up, rebalance the
+     prompt or filter (the MORPHOGEN failure, seen here as bias rather than as a flipped twin);
    - duplicate and overused-opening filter, as in the English pipeline.
    Analyser: `dicta-il/dictabert-joint` (or `dictabert-morph`) for person/gender/number per token. It is a
    BERT-base-sized model; run it on Modal for the bulk pass, not on the laptop.
 4. **Examples.** Group by term. Each example samples n from 1 to min(available, 10) with a random order.
-   Gender balance m:f 50:50. Both twins of a pair may appear, in different examples, so the
-   model sees minimal contrasts.
+   Gender balance m:f 50:50, with the same terms on both sides.
 5. **Split by term:** ~300 held-out terms, stratified by part of speech. Plus a fixed bench of 8 to 10 terms
    used in every comparison.
 6. Human spot check before training: Daniel reads ~50 pairs.
@@ -105,7 +108,9 @@ Port `Term-Context-Sentence-Generator/scripts/train_modal.py` to `scripts/train_
   US$2 to 5 on 7 to 12B. Confirm with Daniel before the first full run.
 - Merge and push to private HF `danielrosehill/hebrew-gendered-sentence-creator-<run>`.
 - Run records in `data/runs/<run>/` (`train.json`, `eval-outputs.jsonl`, `score.json`).
-- If fluent but gender errors remain: a DPO pass with the rejected opposite-gender twin as the negative.
+- If fluent but gender errors remain: a DPO pass whose negatives are the sentences the analyser rejected
+  for wrong first-person gender (and, if needed, a few minimal-edit opposite-gender copies made only for
+  this purpose; they are never SFT targets).
   The pair data gives these negatives for free.
 
 ## Evaluation (go / no-go)
@@ -131,8 +136,4 @@ is "natural".
 When the model passes evaluation, publish it under Hebrish. The code is already in the GitHub org `Hebrish-ASR`
 (`Hebrish-ASR/Hebrew-Gendered-Sentence-Creator`). The weights and dataset go public on Hugging Face under the
 Hebrish account; its exact HF org name has not been checked yet. Until then, runs push privately to
-`danielrosehill/`, as in the English sibling. The release licence follows the base model.
-
-## Open questions for Daniel
-
-- Licence follows the base model; Apache-2.0 bases keep the options widest.
+`danielrosehill/`, as in the English sibling. The release licence is MIT (Daniel, 2026-11-18); see the README's Licence section.

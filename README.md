@@ -10,6 +10,8 @@ Status (2026-11-18): planning. No data and no weights yet.
 
 **Example use case: Hebrew podcast generation for TTS.** A script has a male and a female character. Each character's lines must already be spelled for that character's gender before the text reaches TTS. A voice can't turn הלכתי עייף into הלכתי עייפה. The gender input is a deterministic switch that guarantees this: `m` for one character, `f` for the other.
 
+**Design:** stage 1 is a Hebrew LLM fine-tuned with the gender as an input. It writes each sentence in one pass, already in the right gender. There is no "write it, then fix the gender" step: no rewriting and no reinflection of existing text.
+
 ## The pipeline: why two models
 
 Hebrew marks the speaker's gender in two different ways, and they need different tools.
@@ -56,9 +58,9 @@ The reply is a JSON array of `n` unpointed Hebrew sentences, each 6 to 18 words,
 ## Planning notes (to be worked out)
 
 - **Base model.** It must write good Hebrew at a size we can run cheaply. The shortlist and reasons are in [`docs/base-model-candidates.md`](docs/base-model-candidates.md). The working bet is `dicta-il/DictaLM-3.0-1.7B-Instruct`, against Gemma 4 E4B, DictaLM 2.0, DictaLM-3.0-Nemotron-12B and others. Not chosen until the phase-0 probe has run. The full proposal is in [`docs/training-plan.md`](docs/training-plan.md).
-- **Data.** Distil from a strong LLM. Write each term's sentences as m/f pairs. Accept a pair only if the words that differ are the speaker's own forms (not "my wife" → "my husband"), checked by a cheap automatic diff.
+- **Data.** Distil from a strong LLM, writing natively for each gender. Nothing is written in one gender and then edited into the other. Keep a sentence only if a morphological analyser finds every first-person form in the requested gender, and check that third parties do not drift toward that gender.
 - **Evaluation.** Gate pass rate (JSON, n, length, term present), speaker-gender agreement measured by a morphological analyser, and no gender flips on third parties.
 
 ## Licence
 
-To be decided with the base model.
+MIT, for the code and for the released adapter and weights. This needs a base whose licence allows that: Apache-2.0 or MIT bases are fine, with the upstream notice and attribution kept. NVIDIA's Open Model Licence (DictaLM-3.0-Nemotron-12B) and the gated Gemma 3 and Llama licences are not.
