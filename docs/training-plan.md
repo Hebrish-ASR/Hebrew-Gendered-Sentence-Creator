@@ -293,3 +293,13 @@ training data to `Hebrish/Hebrew-Gendered-Sentences`, both public. They were cop
 `scripts/publish_modal.py`; the cards are in `hf/`.
 
 Spend to date: about US$13.80 (Anthropic US$5.53, Modal about US$8.30 estimated from run times).
+
+### 2026-11-18: cleanup (Daniel)
+
+- Deleted the private HF repos `danielrosehill/hebrew-gendered-sentence-creator-gemma-4-e4b-v1`, `-v2` and
+  `-v3`. The only copy of the weights is now the public `Hebrish/Hebrew-Gendered-Sentence-Creator`, which
+  holds the merged v3.
+- Deleted the Modal volume `hebrew-gendered-runs`. Its contents (eval outputs for v2 and v3) are in git under
+  `data/runs/`, and `train_modal.py` recreates the volume on the next run.
+- v4 retrains from `google/gemma-4-E4B-it`, so it needs no earlier weights. To continue from v3 instead, pass
+  `--base Hebrish/Hebrew-Gendered-Sentence-Creator`.
