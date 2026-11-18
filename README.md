@@ -47,9 +47,11 @@ The same chat format as Contextual-Sentence-Creator, with Hebrew output and a `s
 
 The reply is a JSON array of `n` unpointed Hebrew sentences, each 6 to 18 words, each a statement in the first person where the term allows it. `speaker_gender` is `m`, `f` or `none` (no first-person gendered forms).
 
+**What is conditioned:** the gender of the sentence's first person, the "I" (אני, or a first-person verb with no pronoun). That "I" is normally the speaker, which is where the field name comes from. Only first-person forms follow the setting. Every other person in the sentence keeps whatever gender the content needs.
+
 ## Planning notes (to be worked out)
 
-- **Base model.** It must write good Hebrew at a size we can run cheaply. Candidates to compare wide and shallow: Dicta's DictaLM line, and Hebrew-capable general models in the 3B to 8B range. Not chosen yet.
+- **Base model.** It must write good Hebrew at a size we can run cheaply. The shortlist and reasons are in [`docs/base-model-candidates.md`](docs/base-model-candidates.md). The working bet is `dicta-il/DictaLM-3.0-1.7B-Instruct`, against Gemma 4 E4B, DictaLM 2.0, DictaLM-3.0-Nemotron-12B and others. Not chosen until the phase-0 probe has run. The full proposal is in [`docs/training-plan.md`](docs/training-plan.md).
 - **Data.** Distil from a strong LLM. Write each term's sentences as m/f pairs. Accept a pair only if the words that differ are the speaker's own forms (not "my wife" → "my husband"), checked by a cheap automatic diff.
 - **Evaluation.** Gate pass rate (JSON, n, length, term present), speaker-gender agreement measured by a morphological analyser, and no gender flips on third parties.
 
