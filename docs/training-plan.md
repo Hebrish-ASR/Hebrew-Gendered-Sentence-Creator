@@ -1,6 +1,6 @@
 # Training plan (proposed)
 
-Status 2026-11-18: **paused at viability (Daniel's call).** Prompting alone already conditions gender correctly, even on Gemma 4 E4B. See Progress at the end. The bulk data run (about US$6.50) was not run. Base-model candidates are in
+Status 2026-11-18: **v2 trained** (`danielrosehill/hebrew-gendered-sentence-creator-gemma-4-e4b-v2`, private). It is better than prompt-only Gemma on format and fluency, but not on gender correctness, because of how the term is handled. See the last Progress entry. Base-model candidates are in
 [`base-model-candidates.md`](base-model-candidates.md).
 
 The template is the English sibling, `~/repos/github/ai-models/Term-Context-Sentence-Generator`
@@ -198,3 +198,62 @@ Spend for the whole investigation:
 - Anthropic: about US$0.52 (pilot v0 + v1 + terms, sync).
 - Modal: two smoke runs, one zero-shot run and three analyser runs, roughly US$0.50 (estimated, not read
   from the bill).
+
+### 2026-11-18: full run, v1 and v2 (Daniel: "let's do the fine-tune")
+
+**Data.**
+- Anthropic batch `msgbatch_01PoCafFGsoKAuBRB1JkazQ8`: 924 terms x m/f x n=10, so 1,848 requests.
+  771,430 tokens in and 847,589 out, US$5.01.
+- 6 calls did not parse. The analyser flagged 82 sentences, almost all female "I" with masculine forms
+  (אני חרד, הרגשתי נרגש), so even Sonnet slips about 1% of the time on female speakers.
+- Dataset: 834 train terms and 100 eval terms (seed 0). v1 had 6,748 examples; v2 has 6,884.
+
+**v1 bug, fixed in v2.** `gate.py` required the term exactly as given. For a female "I", adjective terms must
+inflect (אסיר תודה → אסירת תודה, מדוכא → מדוכאה); the writer did that, and the gate threw those sentences out.
+The female data for adjective terms was therefore left with masculine uses only. In v1's eval, 39 of the 41
+female gender errors were the term itself. The gate now accepts gender/number inflection of the term.
+
+**Runs** (L40S, LoRA r=32, lr 2e-4, 2 epochs, micro-batch 4 x 4):
+- v1: 844 steps, 1,828 s.
+- v2: 861 steps, 2,237 s.
+- v2's first attempt finished training, but its local client was killed by laptop memory pressure and the
+  app was stopped before eval and push. Runs now use `modal run --detach` and write to the Modal volume
+  `hebrew-gendered-runs`.
+
+**Eval** (100 held-out terms x m/f, n=10, temperature 0.8; the same gate and analyser for all three):
+
+| | Gemma E4B prompt-only (writer prompt) | v1 | v2 |
+|---|---|---|---|
+| unparseable / not exactly n | 6 / 6 | 0 / 0 | 1 / 1 |
+| gate pass | 1,855/1,940 | 1,956/2,000 | 1,921/1,990 |
+| female "I": marked forms agree / disagree | 510 / 19 (3.6%) | 668 / 41 (5.8%) | 680 / 26 (3.7%) |
+| male "I": agree / disagree | 488 / 2 | 773 / 3 | 740 / **0** |
+| sentences with a letter-marked "I" form | 1,019 | 1,485 | 1,446 |
+
+**Reading v2's 26 female disagreements:**
+- 15 are the term kept in the masculine (מדוכא x10, שוכר x5). Both are held-out terms; the system prompt
+  still says "use the term once, as given".
+- 5 are genuine slips: ער x3, גר, מתחיל.
+- 6 are analyser false positives: נוח, טוב, חוקי and פתוח used as predicates of other things, מת, נמאס.
+
+So the only real weakness left is an adjective term for a woman, and the cause is the prompt wording. The
+male side is clean.
+
+**Fluency**, read by Claude rather than Daniel:
+- v2 is more natural and varied than prompt-only (for example "כשאני לבד בבית, ארוחת ערב שלי היא בדרך כלל משהו שאני מחממת מהמקפיא").
+- Prompt-only output is flat and repeats the pronoun (אני הכנתי, אני קניתי).
+- Both still make content errors: v2 wrote "האטיג" and put the etrog on Yom Kippur.
+
+**Next (v3, needs approval):**
+1. Change `scripts/system_prompt.py` and the writer prompt so the term "may be inflected to agree with
+   the 'I'".
+2. Rebuild, which needs no new data.
+3. Retrain detached, about US$1.50.
+Expected effect: the term-related female errors (15 of the 26) go away.
+
+**Spend to date**, Modal figures estimated from run times at about US$0.00054/s for an L40S, not read from
+the bill:
+- Anthropic: US$5.53.
+- Modal: about US$5.30 (v1, v2 x2, zero-shot x2, smoke tests, analysers).
+- Total about US$10.80, against the US$6.50 approved. The overrun is the v1 gate bug (one retrain), the lost
+  v2 client (one more retrain) and the like-for-like zero-shot baseline.
