@@ -1,17 +1,18 @@
 {
  "inputs": [
-  "data/pilot/sonnet-5-5.gated.analysed.jsonl"
+  "data/pilot/sonnet-5-5.gated.analysed.jsonl",
+  "data/bulk/sonnet-5-5.gated.analysed.jsonl"
  ],
- "sentences_kept": 187,
+ "sentences_kept": 17172,
  "dropped": {
-  "gender": 9,
-  "gate": 4
+  "gate": 1382,
+  "gender": 78
  },
- "terms": 10,
- "eval_terms": 2,
- "train_examples": 64,
+ "terms": 934,
+ "eval_terms": 100,
+ "train_examples": 6748,
  "by_gender": {
-  "f": 34,
-  "m": 30
+  "f": 3316,
+  "m": 3432
  }
 }
